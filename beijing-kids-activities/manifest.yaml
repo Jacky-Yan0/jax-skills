@@ -1,0 +1,13 @@
+name: beijing-kids-activities
+version: 1.0.0
+description: >
+  Query parent-child activities at Beijing kindergartens (北京幼儿园亲子活动).
+  Wraps a POST request to the 3ren.cn baby-map-center POI API with configurable
+  keywords and startTime parameters. Returns structured activity data including
+  location, distance, category tags, registration info, and pagination.
+
+always_load:
+  - static/core/workflow.md
+
+references:
+  on_demand: []
