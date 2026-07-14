@@ -22,7 +22,8 @@ python scripts/query_activities.py --keywords "中华女子" --start-time 178318
 | `--page-index` | int  | No       | 1       | Page number for pagination |
 | `--page-size`  | int  | No       | 50      | Results per page (max 50) |
 | `--no-verify-ssl` | flag | No    | false   | Disable SSL certificate verification (macOS workaround) |
-| `--debug`      | flag | No       | false   | Print raw JSON response for debugging |
+| `--proxy`   | string | No       | —       | HTTP/HTTPS proxy URL, e.g. `http://127.0.0.1:7890` (国内代理) |
+| `--debug`      | flag | No       | false   | Print debug info (request/response) to stderr |
 
 ### Raw JSON output
 

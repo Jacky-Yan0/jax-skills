@@ -7,6 +7,7 @@ Usage:
     python query_activities.py --keywords "中华女子" --start-time 1783180800000
     python query_activities.py --keywords "亲子" --start-time 1783180800000 --page-size 20
     python query_activities.py --keywords "幼儿园" --start-time 1783180800000 --debug
+    python query_activities.py --keywords "亲子" --start-time 1783180800000 --proxy http://127.0.0.1:7890
 """
 
 from __future__ import annotations
@@ -82,6 +83,7 @@ def query_activities(
     page_size: int = 50,
     debug: bool = False,
     no_verify_ssl: bool = False,
+    proxy: str | None = None,
 ) -> dict:
     """Send the POST request and return the parsed JSON response."""
     payload = build_payload(
@@ -96,13 +98,26 @@ def query_activities(
     req = urllib.request.Request(API_URL, data=body, headers=HEADERS, method="POST")
     ssl_ctx = _make_ssl_context(no_verify=no_verify_ssl)
 
+    # Set up opener with SSL context and optional proxy
+    https_handler = urllib.request.HTTPSHandler(context=ssl_ctx)
+    handlers = [https_handler]
+    if proxy:
+        proxy_handler = urllib.request.ProxyHandler({
+            "http": proxy,
+            "https": proxy,
+        })
+        handlers.insert(0, proxy_handler)
+        if debug:
+            print(f"[DEBUG] Using proxy: {proxy}", file=sys.stderr)
+    opener = urllib.request.build_opener(*handlers)
+
     if debug:
         print(f"[DEBUG] Request URL: {API_URL}", file=sys.stderr)
         print(f"[DEBUG] Request headers: {json.dumps(HEADERS, indent=2)}", file=sys.stderr)
         print(f"[DEBUG] Request body: {json.dumps(payload, ensure_ascii=False, indent=2)}", file=sys.stderr)
 
     try:
-        with urllib.request.urlopen(req, context=ssl_ctx) as resp:
+        with opener.open(req) as resp:
             raw_bytes = resp.read()
             # Handle gzip content-encoding
             content_encoding = resp.headers.get("Content-Encoding", "")
@@ -168,6 +183,12 @@ def main() -> None:
         action="store_true",
         help="Disable SSL certificate verification (useful on macOS with cert issues)",
     )
+    parser.add_argument(
+        "--proxy",
+        type=str,
+        default=None,
+        help='HTTP/HTTPS proxy URL, e.g. "http://127.0.0.1:7890" (国内代理)',
+    )
 
     args = parser.parse_args()
 
@@ -178,6 +199,7 @@ def main() -> None:
         page_size=args.page_size,
         debug=args.debug,
         no_verify_ssl=args.no_verify_ssl,
+        proxy=args.proxy,
     )
 
     # Pretty-print the JSON result to stdout
