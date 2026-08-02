@@ -1,0 +1,52 @@
+{
+  "pe_ttm": 51.4115,
+  "pe": 57.9253,
+  "pb": 27.094,
+  "ps_ttm": 18.956,
+  "dv_ttm": 0.1804,
+  "total_mv_yi": 5521.39595767,
+  "trade_date": "20260731",
+  "pe_ttm_percentile_5y": 65.0,
+  "pb_percentile_5y": 87.4,
+  "rev_yoy_avg3": 120.00229999999999,
+  "profit_yoy_avg3": 174.7758666666667,
+  "deducted_yoy_avg3": 180.00666666666666,
+  "rev_positive_years": 2,
+  "consensus_growth": null,
+  "consensus_forward_year": null,
+  "consensus_forward_np": null,
+  "consensus_base_np": null,
+  "consensus_note": "report_rc 数据不可得（权限不足/频率受限/无研报覆盖）",
+  "consensus_n_orgs": 0,
+  "ttm_profit_yoy": 162.85,
+  "ttm_note": "TTM(2026年3月截止) 107.4亿 vs 去年同期 40.9亿",
+  "growth_proxy": 90.25,
+  "growth_period": "2026H1（1-6月累计）",
+  "growth_basis": "forecast",
+  "growth_note": "业绩预告净利变动区间 77.56%~102.93%，取中值；公告日 20260720",
+  "growth_trace": [
+    {
+      "level": "1.一致预期",
+      "status": "降级",
+      "detail": "report_rc 数据不可得（权限不足/频率受限/无研报覆盖）"
+    },
+    {
+      "level": "2.业绩预告",
+      "status": "采用",
+      "detail": "净利变动 77.56%~102.93% 取中值 90.25%（公告 20260720）"
+    }
+  ],
+  "profit_yoy_latest": 76.7998,
+  "profit_yoy_latest_period": "2026Q1（1-3月累计）",
+  "peg": 0.57,
+  "peg_note": "PEG 增速代理：forecast（2026H1（1-6月累计））— 业绩预告净利变动区间 77.56%~102.93%，取中值；公告日 20260720",
+  "gross_margin": 49.161,
+  "net_margin": 33.2721,
+  "roe_waa": 14.52,
+  "debt_to_assets": 31.035,
+  "ocf_to_np": 0.81,
+  "volatility_annual": 88.8,
+  "avg_daily_amount_yi": 196.8,
+  "div_years_cash": 10,
+  "div_latest_cash_div": 0.35
+}

@@ -15,6 +15,7 @@
     --token XXX    tushare token（默认读环境变量 TUSHARE_TOKEN，再回退 ts.get_token()）
     --years N      历史估值序列年数（默认 5，用于算分位数）
     --outdir DIR   输出目录（默认 ./output）
+    --no-score     不自动生成 score.json（默认执行完后自动调用 score_stock.py 打分）
 
 输出文件（outdir 下）:
     basic.json             公司基本信息（名称/行业/上市日期）
@@ -45,6 +46,7 @@
 import argparse
 import json
 import os
+import subprocess
 import sys
 
 import pandas as pd
@@ -693,6 +695,23 @@ METRIC_LABELS = {
 }
 
 
+def run_score(outdir: str):
+    """调用 score_stock.py 自动打分，生成 <outdir>/score.json（仅读本地 JSON，无网络调用）。"""
+    script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "score_stock.py")
+    if not os.path.exists(script):
+        print("[提示] scripts/score_stock.py 不存在，跳过自动打分")
+        return
+    try:
+        r = subprocess.run([sys.executable, script, "--dir", outdir, "--short"],
+                           capture_output=True, text=True, timeout=120)
+        if r.returncode == 0:
+            print(r.stdout, end="")
+        else:
+            print(f"[警告] 自动打分失败: {(r.stderr or r.stdout)[:200]}")
+    except Exception as e:
+        print(f"[警告] 自动打分异常: {e}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="成长股基本面数据拉取（tushare）")
     parser.add_argument("ts_code", nargs="?", help="股票代码，如 300750.SZ")
@@ -700,6 +719,7 @@ def main():
     parser.add_argument("--token", help="tushare token（默认读环境变量 TUSHARE_TOKEN）")
     parser.add_argument("--years", type=int, default=5, help="历史估值序列年数（默认 5）")
     parser.add_argument("--outdir", default="./output", help="输出目录（默认 ./output）")
+    parser.add_argument("--no-score", action="store_true", help="不自动生成 score.json")
     args = parser.parse_args()
 
     if not args.ts_code and not args.name:
@@ -789,6 +809,11 @@ def main():
             print(f"  → 增速分母：{d.get('growth_basis')}（{d.get('growth_period')}），"
                   f"增速 {d.get('growth_proxy')}%")
     print(f"\n输出目录: {os.path.abspath(args.outdir)}")
+
+    # 自动打分（生成 score.json）
+    if not args.no_score:
+        print("\n--- 自动打分（score_stock.py）---")
+        run_score(args.outdir)
 
 
 if __name__ == "__main__":

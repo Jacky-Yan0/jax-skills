@@ -1,0 +1,127 @@
+{
+  "ts_code": "300502.SZ",
+  "name": "新易盛",
+  "industry": "通信设备",
+  "trade_date": "20260731",
+  "total_score": 84,
+  "max_score": 100,
+  "rating": "低估/优质",
+  "rating_emoji": "🟢",
+  "dimensions": {
+    "成长性": {
+      "score": 28,
+      "max": 30
+    },
+    "盈利质量": {
+      "score": 16,
+      "max": 20
+    },
+    "估值吸引力": {
+      "score": 20,
+      "max": 30
+    },
+    "财务健康": {
+      "score": 15,
+      "max": 15
+    },
+    "流动性与规模": {
+      "score": 5,
+      "max": 5
+    }
+  },
+  "scores": [
+    {
+      "key": "rev_yoy_avg3",
+      "name": "近3年营收增速均值",
+      "dimen": "成长性",
+      "score": 10,
+      "remark": "营收增速均值 120.0%，≥20%"
+    },
+    {
+      "key": "profit_yoy_avg3",
+      "name": "近3年净利增速均值",
+      "dimen": "成长性",
+      "score": 10,
+      "remark": "净利增速均值 174.8%，≥25%"
+    },
+    {
+      "key": "rev_positive_years",
+      "name": "近3年营收正增长年数",
+      "dimen": "成长性",
+      "score": 3,
+      "remark": "正增长 2 年，得分 3"
+    },
+    {
+      "key": "deducted_yoy_avg3",
+      "name": "近3年扣非增速均值",
+      "dimen": "成长性",
+      "score": 5,
+      "remark": "扣非增速均值 180.0%，≥10%"
+    },
+    {
+      "key": "gross_margin",
+      "name": "毛利率",
+      "dimen": "盈利质量",
+      "score": 5,
+      "remark": "毛利率 49.2%（最新报告期），≥40%"
+    },
+    {
+      "key": "ocf_to_np",
+      "name": "经营现金流/归母净利",
+      "dimen": "盈利质量",
+      "score": 6,
+      "remark": "经营现金流/净利 0.81，0.5–1"
+    },
+    {
+      "key": "roe_waa",
+      "name": "加权ROE（最新年度）",
+      "dimen": "盈利质量",
+      "score": 5,
+      "remark": "年度 ROE 72.8%（20251231），≥15%"
+    },
+    {
+      "key": "peg",
+      "name": "PEG（混合PEG）",
+      "dimen": "估值吸引力",
+      "score": 15,
+      "remark": "PEG 0.57，<1 低估；口径 forecast（2026H1（1-6月累计））"
+    },
+    {
+      "key": "pe_ttm_percentile_5y",
+      "name": "PE-TTM近5年分位",
+      "dimen": "估值吸引力",
+      "score": 5,
+      "remark": "分位 65.0%（50–75% 中高位）"
+    },
+    {
+      "key": "debt_to_assets",
+      "name": "资产负债率",
+      "dimen": "财务健康",
+      "score": 10,
+      "remark": "资产负债率 31.0%，<40%"
+    },
+    {
+      "key": "mine_check",
+      "name": "排雷项",
+      "dimen": "财务健康",
+      "score": 5,
+      "remark": "未触发排雷项"
+    },
+    {
+      "key": "avg_daily_amount_yi",
+      "name": "日均成交额",
+      "dimen": "流动性与规模",
+      "score": 3,
+      "remark": "日均成交额 196.8亿，≥1亿"
+    },
+    {
+      "key": "total_mv_yi",
+      "name": "总市值",
+      "dimen": "流动性与规模",
+      "score": 2,
+      "remark": "总市值 5521亿，≥100亿"
+    }
+  ],
+  "flags": [],
+  "disclaimer": "本评分仅为数据分析，不构成投资建议。所有分数锚定 tushare 真实数据，缺失按 0 分计。"
+}
