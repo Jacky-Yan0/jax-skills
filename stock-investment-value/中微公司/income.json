@@ -1,0 +1,222 @@
+[
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20210825",
+    "end_date": "20210630",
+    "total_revenue": 1338627684.43,
+    "revenue": 1338627684.43,
+    "operate_profit": 474811071.98,
+    "total_profit": 474301525.15,
+    "n_income": 396555149.24,
+    "n_income_attr_p": 396632306.55
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20211028",
+    "end_date": "20210930",
+    "total_revenue": 2072777066.62,
+    "revenue": 2072777066.62,
+    "operate_profit": 635871422.22,
+    "total_profit": 635369409.09,
+    "n_income": 541680654.3,
+    "n_income_attr_p": 541855082.7
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20220331",
+    "end_date": "20211231",
+    "total_revenue": 3108134730.67,
+    "revenue": 3108134730.67,
+    "operate_profit": 1133278074.78,
+    "total_profit": 1132815086.4,
+    "n_income": 1011269799.32,
+    "n_income_attr_p": 1011423670.06
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20220428",
+    "end_date": "20220331",
+    "total_revenue": 949143575.28,
+    "revenue": 949143575.28,
+    "operate_profit": 107902831.38,
+    "total_profit": 107080334.64,
+    "n_income": 117031907.54,
+    "n_income_attr_p": 117189974.5
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20220811",
+    "end_date": "20220630",
+    "total_revenue": 1971794762.86,
+    "revenue": 1971794762.86,
+    "operate_profit": 509376830.26,
+    "total_profit": 508295685.92,
+    "n_income": 466582426.23,
+    "n_income_attr_p": 467793945.79
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20221028",
+    "end_date": "20220930",
+    "total_revenue": 3043057722.11,
+    "revenue": 3043057722.11,
+    "operate_profit": 856681102.07,
+    "total_profit": 854983958.97,
+    "n_income": 791404165.58,
+    "n_income_attr_p": 792968007.82
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20230331",
+    "end_date": "20221231",
+    "total_revenue": 4739830997.55,
+    "revenue": 4739830997.55,
+    "operate_profit": 1262914144.27,
+    "total_profit": 1258547879.84,
+    "n_income": 1167897318.07,
+    "n_income_attr_p": 1169792388.77
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20230429",
+    "end_date": "20230331",
+    "total_revenue": 1223068402.75,
+    "revenue": 1223068402.75,
+    "operate_profit": 307443616.79,
+    "total_profit": 308528972.16,
+    "n_income": 275005060.98,
+    "n_income_attr_p": 275369120.77
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20230825",
+    "end_date": "20230630",
+    "total_revenue": 2526501011.91,
+    "revenue": 2526501011.91,
+    "operate_profit": 1127678037.41,
+    "total_profit": 1128918092.41,
+    "n_income": 1002304157.67,
+    "n_income_attr_p": 1002969453.68
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20231027",
+    "end_date": "20230930",
+    "total_revenue": 4041266479.18,
+    "revenue": 4041266479.18,
+    "operate_profit": 1301324927.85,
+    "total_profit": 1304200597.21,
+    "n_income": 1158693659.84,
+    "n_income_attr_p": 1159835796.6
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20240319",
+    "end_date": "20231231",
+    "total_revenue": 6263513581.37,
+    "revenue": 6263513581.37,
+    "operate_profit": 1980318617.53,
+    "total_profit": 2010381608.63,
+    "n_income": 1783977209.36,
+    "n_income_attr_p": 1785907974.46
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20240426",
+    "end_date": "20240331",
+    "total_revenue": 1605024097.68,
+    "revenue": 1605024097.68,
+    "operate_profit": 254409633.95,
+    "total_profit": 256808231.47,
+    "n_income": 248855112.06,
+    "n_income_attr_p": 249135780.57
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20240823",
+    "end_date": "20240630",
+    "total_revenue": 3447712750.84,
+    "revenue": 3447712750.84,
+    "operate_profit": 527691532.75,
+    "total_profit": 531469047.05,
+    "n_income": 516250546.94,
+    "n_income_attr_p": 516693982.42
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20241030",
+    "end_date": "20240930",
+    "total_revenue": 5507194599.46,
+    "revenue": 5507194599.46,
+    "operate_profit": 942261968.37,
+    "total_profit": 946561924.83,
+    "n_income": 912184138.09,
+    "n_income_attr_p": 912979678.37
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20250418",
+    "end_date": "20241231",
+    "total_revenue": 9065165097.69,
+    "revenue": 9065165097.69,
+    "operate_profit": 1703517828.59,
+    "total_profit": 1708934664.34,
+    "n_income": 1614314396.25,
+    "n_income_attr_p": 1615675746.81
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20250425",
+    "end_date": "20250331",
+    "total_revenue": 2173278385.62,
+    "revenue": 2173278385.62,
+    "operate_profit": 294467825.63,
+    "total_profit": 294315412.33,
+    "n_income": 308245968.1,
+    "n_income_attr_p": 313082457.72
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20250829",
+    "end_date": "20250630",
+    "total_revenue": 4960601270.04,
+    "revenue": 4960601270.04,
+    "operate_profit": 714674086.75,
+    "total_profit": 717766508.36,
+    "n_income": 686116028.42,
+    "n_income_attr_p": 705916536.34
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20251030",
+    "end_date": "20250930",
+    "total_revenue": 8062565115.42,
+    "revenue": 8062565115.42,
+    "operate_profit": 1224563322.42,
+    "total_profit": 1227224383.22,
+    "n_income": 1180764123.83,
+    "n_income_attr_p": 1211192400.82
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20260331",
+    "end_date": "20251231",
+    "total_revenue": 12384638268.11,
+    "revenue": 12384638268.11,
+    "operate_profit": 2190510942.87,
+    "total_profit": 2189849396.66,
+    "n_income": 2064217331.64,
+    "n_income_attr_p": 2111472990.43
+  },
+  {
+    "ts_code": "688012.SH",
+    "ann_date": "20260428",
+    "end_date": "20260331",
+    "total_revenue": 2914986518.73,
+    "revenue": 2914986518.73,
+    "operate_profit": 976347899.01,
+    "total_profit": 976844420.45,
+    "n_income": 918439904.12,
+    "n_income_attr_p": 930487319.17
+  }
+]

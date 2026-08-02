@@ -1,0 +1,57 @@
+{
+  "pe_ttm": 120.7448,
+  "pe": 156.0511,
+  "pb": 13.5544,
+  "ps_ttm": 25.102,
+  "dv_ttm": 0.0668,
+  "total_mv_yi": 3294.977512,
+  "trade_date": "20260731",
+  "pe_ttm_percentile_5y": 90.7,
+  "pb_percentile_5y": 97.6,
+  "rev_yoy_avg3": 37.8313,
+  "profit_yoy_avg3": 24.607833333333332,
+  "deducted_yoy_avg3": 19.243333333333336,
+  "rev_positive_years": 3,
+  "consensus_growth": null,
+  "consensus_forward_year": null,
+  "consensus_forward_np": null,
+  "consensus_base_np": null,
+  "consensus_note": "report_rc 数据不可得（权限不足/频率受限/无研报覆盖）",
+  "consensus_n_orgs": 0,
+  "ttm_profit_yoy": 62.47,
+  "ttm_note": "TTM(2026年3月截止) 27.3亿 vs 去年同期 16.8亿",
+  "growth_proxy": 62.47,
+  "growth_period": "滚动12个月(TTM)",
+  "growth_basis": "ttm",
+  "growth_note": "TTM 净利同比（TTM(2026年3月截止) 27.3亿 vs 去年同期 16.8亿）",
+  "growth_trace": [
+    {
+      "level": "1.一致预期",
+      "status": "降级",
+      "detail": "report_rc 数据不可得（权限不足/频率受限/无研报覆盖）"
+    },
+    {
+      "level": "2.业绩预告",
+      "status": "降级",
+      "detail": "预告报告期 20251231 早于最新财报 20260331（已过期）"
+    },
+    {
+      "level": "3.TTM净利同比",
+      "status": "采用",
+      "detail": "62.47%（TTM(2026年3月截止) 27.3亿 vs 去年同期 16.8亿）"
+    }
+  ],
+  "profit_yoy_latest": 197.202,
+  "profit_yoy_latest_period": "2026Q1（1-3月累计）",
+  "peg": 1.93,
+  "peg_note": "PEG 增速代理：ttm（滚动12个月(TTM)）— TTM 净利同比（TTM(2026年3月截止) 27.3亿 vs 去年同期 16.8亿）",
+  "gross_margin": 39.8926,
+  "net_margin": 31.5075,
+  "roe_waa": 4.0,
+  "debt_to_assets": 22.1756,
+  "ocf_to_np": 1.09,
+  "volatility_annual": 74.3,
+  "avg_daily_amount_yi": 60.44,
+  "div_years_cash": 5,
+  "div_latest_cash_div": 0.0
+}

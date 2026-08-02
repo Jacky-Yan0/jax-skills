@@ -1,0 +1,15 @@
+name: stock-investment-value
+version: 1.0.0
+description: >
+  基于 Tushare 真实基本面数据评估股票投资价值（当前实现成长股框架）。
+  先分类再评估：确认标的 → 运行 fetch_fundamentals.py 拉取真实数据 →
+  按 references/成长股.md 打分卡输出得分、评级、数据表、风险项与免责声明。
+  禁止虚构任何数据，增速预测一律用历史增速代理并明确标注。
+
+always_load: []
+
+references:
+  on_demand:
+    - references/分类方法.md
+    - references/成长股.md
+    - references/通用指标与公式.md

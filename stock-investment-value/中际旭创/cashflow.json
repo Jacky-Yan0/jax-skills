@@ -1,0 +1,37 @@
+[
+  {
+    "ts_code": "300308.SZ",
+    "ann_date": "20220425",
+    "end_date": "20211231",
+    "n_cashflow_act": 812760603.14,
+    "c_fr_sale_sg": 7633706673.06
+  },
+  {
+    "ts_code": "300308.SZ",
+    "ann_date": "20230424",
+    "end_date": "20221231",
+    "n_cashflow_act": 2448940873.28,
+    "c_fr_sale_sg": 10305069546.88
+  },
+  {
+    "ts_code": "300308.SZ",
+    "ann_date": "20240422",
+    "end_date": "20231231",
+    "n_cashflow_act": 1897126918.71,
+    "c_fr_sale_sg": 9661583431.26
+  },
+  {
+    "ts_code": "300308.SZ",
+    "ann_date": "20250421",
+    "end_date": "20241231",
+    "n_cashflow_act": 3164582957.85,
+    "c_fr_sale_sg": 22406148968.36
+  },
+  {
+    "ts_code": "300308.SZ",
+    "ann_date": "20260331",
+    "end_date": "20251231",
+    "n_cashflow_act": 10896126160.03,
+    "c_fr_sale_sg": 36690970399.1
+  }
+]
