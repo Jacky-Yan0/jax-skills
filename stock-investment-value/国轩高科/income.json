@@ -1,0 +1,222 @@
+[
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20210828",
+    "end_date": "20210630",
+    "total_revenue": 3551231166.1,
+    "revenue": 3551231166.1,
+    "operate_profit": 58020240.82,
+    "total_profit": 65654949.78,
+    "n_income": 55017737.18,
+    "n_income_attr_p": 48171502.02
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20211029",
+    "end_date": "20210930",
+    "total_revenue": 5724616704.86,
+    "revenue": 5724616704.86,
+    "operate_profit": 80491946.46,
+    "total_profit": 84375827.0,
+    "n_income": 80651615.54,
+    "n_income_attr_p": 67830451.37
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20220429",
+    "end_date": "20211231",
+    "total_revenue": 10356081191.76,
+    "revenue": 10356081191.76,
+    "operate_profit": 39162280.54,
+    "total_profit": 47834900.47,
+    "n_income": 76926413.76,
+    "n_income_attr_p": 101890171.25
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20220429",
+    "end_date": "20220331",
+    "total_revenue": 3916203789.66,
+    "revenue": 3916203789.66,
+    "operate_profit": 38328771.56,
+    "total_profit": 40491508.16,
+    "n_income": 36208143.56,
+    "n_income_attr_p": 32203716.32
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20220827",
+    "end_date": "20220630",
+    "total_revenue": 8637866501.32,
+    "revenue": 8637866501.32,
+    "operate_profit": 53437603.53,
+    "total_profit": 55954446.87,
+    "n_income": 77498210.42,
+    "n_income_attr_p": 64623004.7
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20221027",
+    "end_date": "20220930",
+    "total_revenue": 14426198559.51,
+    "revenue": 14426198559.51,
+    "operate_profit": 129329084.23,
+    "total_profit": 133634980.19,
+    "n_income": 189724044.28,
+    "n_income_attr_p": 150179430.09
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20230428",
+    "end_date": "20221231",
+    "total_revenue": 23051701484.6,
+    "revenue": 23051701484.6,
+    "operate_profit": 198693506.35,
+    "total_profit": 258963872.62,
+    "n_income": 365640158.02,
+    "n_income_attr_p": 311576431.81
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20230428",
+    "end_date": "20230331",
+    "total_revenue": 7177001038.7,
+    "revenue": 7177001038.7,
+    "operate_profit": 88399537.98,
+    "total_profit": 74554352.8,
+    "n_income": 104476222.7,
+    "n_income_attr_p": 75609494.88
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20230830",
+    "end_date": "20230630",
+    "total_revenue": 15238815021.58,
+    "revenue": 15238815021.58,
+    "operate_profit": 221473625.72,
+    "total_profit": 208693947.78,
+    "n_income": 240947907.36,
+    "n_income_attr_p": 209075222.07
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20231028",
+    "end_date": "20230930",
+    "total_revenue": 21778492192.22,
+    "revenue": 21778492192.22,
+    "operate_profit": 352863588.04,
+    "total_profit": 330663935.24,
+    "n_income": 360878613.97,
+    "n_income_attr_p": 292220176.36
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20240420",
+    "end_date": "20231231",
+    "total_revenue": 31605490020.32,
+    "revenue": 31605490020.32,
+    "operate_profit": 975425494.22,
+    "total_profit": 948159737.79,
+    "n_income": 969098872.91,
+    "n_income_attr_p": 938726847.76
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20240420",
+    "end_date": "20240331",
+    "total_revenue": 7507913610.08,
+    "revenue": 7507913610.08,
+    "operate_profit": 11641300.98,
+    "total_profit": 11184755.04,
+    "n_income": 36181806.05,
+    "n_income_attr_p": 69137964.65
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20240829",
+    "end_date": "20240630",
+    "total_revenue": 16793872660.65,
+    "revenue": 16793872660.65,
+    "operate_profit": 253559519.58,
+    "total_profit": 251788026.95,
+    "n_income": 312500127.91,
+    "n_income_attr_p": 271142494.62
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20241030",
+    "end_date": "20240930",
+    "total_revenue": 25174850704.11,
+    "revenue": 25174850704.11,
+    "operate_profit": 433350150.54,
+    "total_profit": 421415457.81,
+    "n_income": 408021233.02,
+    "n_income_attr_p": 412341982.84
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20250425",
+    "end_date": "20241231",
+    "total_revenue": 35391817095.44,
+    "revenue": 35391817095.44,
+    "operate_profit": 1283449697.41,
+    "total_profit": 1263109731.98,
+    "n_income": 1154134212.39,
+    "n_income_attr_p": 1206790129.59
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20250425",
+    "end_date": "20250331",
+    "total_revenue": 9055225316.38,
+    "revenue": 9055225316.38,
+    "operate_profit": 102662165.26,
+    "total_profit": 99257080.79,
+    "n_income": 102041605.38,
+    "n_income_attr_p": 100632548.36
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20250830",
+    "end_date": "20250630",
+    "total_revenue": 19393535498.22,
+    "revenue": 19393535498.22,
+    "operate_profit": 306801690.47,
+    "total_profit": 316663508.8,
+    "n_income": 332197335.11,
+    "n_income_attr_p": 366628567.61
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20251025",
+    "end_date": "20250930",
+    "total_revenue": 29507977720.23,
+    "revenue": 29507977720.23,
+    "operate_profit": 2825624441.39,
+    "total_profit": 2832548089.7,
+    "n_income": 2442614300.24,
+    "n_income_attr_p": 2533227921.29
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20260429",
+    "end_date": "20251231",
+    "total_revenue": 45070461822.87,
+    "revenue": 45070461822.87,
+    "operate_profit": 2345110563.69,
+    "total_profit": 2253326185.35,
+    "n_income": 2288418886.75,
+    "n_income_attr_p": 2383271938.21
+  },
+  {
+    "ts_code": "002074.SZ",
+    "ann_date": "20260429",
+    "end_date": "20260331",
+    "total_revenue": 11708087377.56,
+    "revenue": 11708087377.56,
+    "operate_profit": -733788.98,
+    "total_profit": -14963201.46,
+    "n_income": 25067082.03,
+    "n_income_attr_p": 21093201.58
+  }
+]

@@ -58,28 +58,60 @@ def tier(score: float, tiers: list, value, label: str, dimen: str) -> dict:
 
 
 # ---------- 各维度打分 ----------
-def score_growth(d: dict) -> list:
-    """成长性（30 分）：营收/净利/持续年数/扣非"""
+def score_growth(d: dict, fina: dict, income: list) -> list:
+    """成长性（35 分）：营收/净利（小基数打折）/持续年数/稳定性(CV)/扣非"""
     items = []
-    items.append(tier(10, [(20, 10, "≥20%"), (10, 7, "10–20%"), (0, 4, "0–10%")],
+    items.append(tier(12, [(20, 12, "≥20%"), (10, 8, "10–20%"), (0, 5, "0–10%")],
                       d.get("rev_yoy_avg3"), "rev_yoy_avg3", DIM_GROWTH))
     items[-1]["name"] = "近3年营收增速均值"
-    items[-1]["remark"] = f"营收增速均值 {d['rev_yoy_avg3']:.1f}%，" + items[-1]["remark"].split("，", 1)[1] if d.get("rev_yoy_avg3") is not None else items[-1]["remark"]
+    if d.get("rev_yoy_avg3") is not None:
+        items[-1]["remark"] = f"营收增速均值 {d['rev_yoy_avg3']:.1f}%，" + items[-1]["remark"].split("，", 1)[1]
 
-    items.append(tier(10, [(25, 10, "≥25%"), (10, 7, "10–25%"), (0, 4, "0–10%")],
-                      d.get("profit_yoy_avg3"), "profit_yoy_avg3", DIM_GROWTH))
-    items[-1]["name"] = "近3年净利增速均值"
-    if d.get("profit_yoy_avg3") is not None:
-        items[-1]["remark"] = f"净利增速均值 {d['profit_yoy_avg3']:.1f}%，" + items[-1]["remark"].split("，", 1)[1]
+    # 净利增速：小基数打折（最新年度归母净利 < 30 亿 → ×0.8）
+    p = d.get("profit_yoy_avg3")
+    base = tier(12, [(25, 12, "≥25%"), (10, 8, "10–25%"), (0, 5, "0–10%")],
+                p, "profit_yoy_avg3", DIM_GROWTH)
+    base["name"] = "近3年净利增速均值"
+    np_yi = None
+    annual_income = [r for r in (income or []) if str(r.get("end_date", "")).endswith("1231")]
+    if annual_income and annual_income[-1].get("n_income_attr_p"):
+        np_yi = annual_income[-1]["n_income_attr_p"] / 1e8
+    small_base = np_yi is not None and np_yi < 30
+    if small_base:
+        base["score"] = round(base["score"] * 0.8, 1)
+    if p is not None:
+        rem = f"净利增速均值 {p:.1f}%，" + base["remark"].split("，", 1)[1]
+        if small_base:
+            rem += f"；小基数（年度归母净利 {np_yi:.1f}亿 < 30亿），×0.8"
+        base["remark"] = rem
+    items.append(base)
 
     years = d.get("rev_positive_years")
     if years is None:
         items.append({"key": "rev_positive_years", "name": "近3年营收正增长年数", "dimen": DIM_GROWTH,
                       "score": 0, "remark": "数据不可得，按 0 分计"})
     else:
-        s = {3: 5, 2: 3, 1: 1}.get(years, 0)
+        s = {3: 3, 2: 2, 1: 1}.get(years, 0)
         items.append({"key": "rev_positive_years", "name": "近3年营收正增长年数", "dimen": DIM_GROWTH,
                       "score": s, "remark": f"正增长 {years} 年，得分 {s}"})
+
+    # 增速稳定性：近3年 netprofit_yoy 变异系数（≥3 样本）
+    annual = (fina or {}).get("annual") or []
+    yoy_hist = [r.get("netprofit_yoy") for r in annual if r.get("netprofit_yoy") is not None]
+    last3 = yoy_hist[-3:]
+    cv = None
+    if len(last3) >= 3 and abs(sum(last3) / len(last3)) > 1e-9:
+        mean3 = sum(last3) / len(last3)
+        var3 = sum((x - mean3) ** 2 for x in last3) / (len(last3) - 1)
+        cv = (var3 ** 0.5) / abs(mean3)
+    if cv is None:
+        items.append({"key": "growth_stability", "name": "增速稳定性（净利增速变异系数）", "dimen": DIM_GROWTH,
+                      "score": 0, "remark": "样本不足3年，按 0 分计"})
+    else:
+        s = 3 if cv < 0.6 else (1 if cv < 1.0 else 0)
+        label = "稳定" if cv < 0.6 else ("波动较大" if cv < 1.0 else "剧烈波动")
+        items.append({"key": "growth_stability", "name": "增速稳定性（净利增速变异系数）", "dimen": DIM_GROWTH,
+                      "score": s, "remark": f"CV={cv:.2f}（{label}），得分 {s}"})
 
     items.append(tier(5, [(10, 5, "≥10%"), (0, 3, "0–10%")],
                       d.get("deducted_yoy_avg3"), "deducted_yoy_avg3", DIM_GROWTH))
@@ -90,7 +122,7 @@ def score_growth(d: dict) -> list:
 
 
 def score_quality(d: dict, fina: dict) -> list:
-    """盈利质量（20 分）：毛利率 / 现金流 / ROE（最新年度口径）"""
+    """盈利质量（25 分）：毛利率 / 净利率 / 现金流 / ROE（最新年度口径）"""
     items = []
     # 毛利率：derived 里是 latest 报告期；打分卡用最新报告期即可，但备注用年度值更稳妥
     gm = d.get("gross_margin")
@@ -99,6 +131,13 @@ def score_quality(d: dict, fina: dict) -> list:
     items[-1]["name"] = "毛利率"
     if gm is not None:
         items[-1]["remark"] = f"毛利率 {gm:.1f}%（最新报告期），" + items[-1]["remark"].split("，", 1)[1]
+
+    nm = d.get("net_margin")
+    items.append(tier(5, [(10, 5, "≥10%"), (5, 3, "5–10%"), (2, 1, "2–5%")],
+                      nm, "net_margin", DIM_QUALITY))
+    items[-1]["name"] = "净利率"
+    if nm is not None:
+        items[-1]["remark"] = f"净利率 {nm:.1f}%（最新报告期），" + items[-1]["remark"].split("，", 1)[1]
 
     ocf = d.get("ocf_to_np")
     items.append(tier(10, [(1, 10, "≥1（利润有真金白银）"), (0.5, 6, "0.5–1"), (0, 3, "0–0.5")],
@@ -123,8 +162,8 @@ def score_quality(d: dict, fina: dict) -> list:
     return items
 
 
-def score_valuation(d: dict) -> list:
-    """估值吸引力（30 分）：PEG + PE分位；一致预期 vs TTM 差距大时 PEG 降档"""
+def score_valuation(d: dict, fina: dict) -> list:
+    """估值吸引力（20 分）：PEG + PE分位；预告口径打折 + 质量联动"""
     items = []
     peg = d.get("peg")
     peg_note = d.get("peg_note", "")
@@ -132,33 +171,57 @@ def score_valuation(d: dict) -> list:
         items.append({"key": "peg", "name": "PEG（混合PEG）", "dimen": DIM_VALUATION, "score": 0,
                       "remark": f"PEG 不适用：{peg_note}"})
     else:
-        s = 15 if peg < 1 else (10 if peg < 1.5 else (5 if peg < 2 else 0))
+        s = 12 if peg < 1 else (8 if peg < 1.5 else (4 if peg < 2 else 0))
         remark = f"PEG {peg:.2f}，{'<1 低估' if peg < 1 else ('1–1.5 合理' if peg < 1.5 else ('1.5–2 偏高' if peg < 2 else '>2 高估'))}"
-        # 一致预期 vs TTM 差距 >15pp → 降一档（15→10）
+        # 预告口径打折：增速代理为业绩预告时 ×0.7（预告含乐观偏差）
+        basis = d.get("growth_basis")
+        if basis == "forecast":
+            s = round(s * 0.7, 1)
+            remark += "；增速为业绩预告口径，×0.7"
+        # 一致预期 vs TTM 差距 >15pp → 降一档（12→8）
         cg, ttmg = d.get("consensus_growth"), d.get("ttm_profit_yoy")
-        if s == 15 and cg is not None and ttmg is not None and abs(cg - ttmg) > 15:
-            s = 10
+        if s == 12 and cg is not None and ttmg is not None and abs(cg - ttmg) > 15:
+            s = 8
             remark += f"；一致预期({cg:.0f}%) vs TTM({ttmg:.0f}%) 差距>15pp，降一档"
         items.append({"key": "peg", "name": "PEG（混合PEG）", "dimen": DIM_VALUATION, "score": s,
-                      "remark": remark + f"；口径 {d.get('growth_basis')}（{d.get('growth_period')}）"})
+                      "remark": remark + f"；口径 {basis}（{d.get('growth_period')}）"})
+
+    # 质量联动：最新年度 ROE < 8% 或 最新报告期净利率 < 5% → 分位上限减半（8→4）
+    roe_annual = None
+    annual = (fina or {}).get("annual") or []
+    for r in reversed(annual):
+        if str(r.get("end_date", "")).endswith("1231"):
+            roe_annual = r.get("roe_waa")
+            break
+    nm_now = d.get("net_margin")
+    quality_gate = (roe_annual is not None and roe_annual < 8) or (nm_now is not None and nm_now < 5)
 
     pct = d.get("pe_ttm_percentile_5y")
     if pct is None:
         items.append({"key": "pe_ttm_percentile_5y", "name": "PE-TTM近5年分位", "dimen": DIM_VALUATION, "score": 0,
                       "remark": "分位数据不可得（样本<60交易日），按 0 分计"})
     else:
-        s = 15 if pct < 25 else (10 if pct < 50 else (5 if pct < 75 else 0))
+        s = 8 if pct < 25 else (6 if pct < 50 else (3 if pct < 75 else 0))
         label = "<25% 历史低位" if pct < 25 else ("25–50% 中低位" if pct < 50 else ("50–75% 中高位" if pct < 75 else ">75% 历史高位"))
+        rem = f"分位 {pct:.1f}%（{label}）"
+        if quality_gate:
+            s = min(s, 4)  # 上限减半
+            gate_reason = []
+            if roe_annual is not None and roe_annual < 8:
+                gate_reason.append(f"年度ROE {roe_annual:.1f}% < 8%")
+            if nm_now is not None and nm_now < 5:
+                gate_reason.append(f"净利率 {nm_now:.1f}% < 5%")
+            rem += f"；质量联动（{'、'.join(gate_reason)}），上限减半"
         items.append({"key": "pe_ttm_percentile_5y", "name": "PE-TTM近5年分位", "dimen": DIM_VALUATION, "score": s,
-                      "remark": f"分位 {pct:.1f}%（{label}）"})
+                      "remark": rem})
     return items
 
 
 def score_financial_health(d: dict, cashflow: list) -> tuple:
-    """财务健康（15 分）：资产负债率 + 排雷项（扣分制）"""
+    """财务健康（12 分）：资产负债率 + 排雷项（扣分制）"""
     items = []
     debt = d.get("debt_to_assets")
-    items.append(tier(10, [(80, 0, ">80%"), (60, 3, "60–80%"), (40, 6, "40–60%"), (0, 10, "<40%")],
+    items.append(tier(7, [(80, 0, ">80%"), (60, 3, "60–80%"), (40, 5, "40–60%"), (0, 7, "<40%")],
                       debt, "debt_to_assets", DIM_HEALTH))
     items[-1]["name"] = "资产负债率"
     if debt is not None:
@@ -181,16 +244,16 @@ def score_financial_health(d: dict, cashflow: list) -> tuple:
 
 
 def score_liquidity(d: dict) -> list:
-    """流动性与规模（5 分）"""
+    """流动性与规模（8 分）"""
     items = []
     amt = d.get("avg_daily_amount_yi")
-    items.append(tier(3, [(1, 3, "≥1亿"), (0.3, 2, "0.3–1亿")], amt, "avg_daily_amount_yi", DIM_LIQUIDITY))
+    items.append(tier(5, [(1, 5, "≥1亿"), (0.3, 3, "0.3–1亿")], amt, "avg_daily_amount_yi", DIM_LIQUIDITY))
     items[-1]["name"] = "日均成交额"
     if amt is not None:
         items[-1]["remark"] = f"日均成交额 {amt:.1f}亿，" + items[-1]["remark"].split("，", 1)[1]
 
     mv = d.get("total_mv_yi")
-    items.append(tier(2, [(100, 2, "≥100亿"), (30, 1, "30–100亿")], mv, "total_mv_yi", DIM_LIQUIDITY))
+    items.append(tier(3, [(100, 3, "≥100亿"), (30, 2, "30–100亿")], mv, "total_mv_yi", DIM_LIQUIDITY))
     items[-1]["name"] = "总市值"
     if mv is not None:
         items[-1]["remark"] = f"总市值 {mv:.0f}亿，" + items[-1]["remark"].split("，", 1)[1]
@@ -209,23 +272,24 @@ def main():
         print(f"[错误] {args.dir}/derived_metrics.json 不存在", file=sys.stderr)
         sys.exit(2)
     fina = load_json(os.path.join(args.dir, "fina_indicator.json"))
+    income = load_json(os.path.join(args.dir, "income.json")) or []
     cashflow = load_json(os.path.join(args.dir, "cashflow.json"))
     basic = load_json(os.path.join(args.dir, "basic.json")) or {}
 
     # ---- 各维度打分 ----
-    g = score_growth(d)
+    g = score_growth(d, fina, income)
     q = score_quality(d, fina)
-    v = score_valuation(d)
+    v = score_valuation(d, fina)
     h = score_financial_health(d, cashflow or [])
     l = score_liquidity(d)
 
     all_scores = g + q + v + h + l
     dims = {
-        "成长性": {"max": 30, "items": g},
-        "盈利质量": {"max": 20, "items": q},
-        "估值吸引力": {"max": 30, "items": v},
-        "财务健康": {"max": 15, "items": h},
-        "流动性与规模": {"max": 5, "items": l},
+        "成长性": {"max": 35, "items": g},
+        "盈利质量": {"max": 25, "items": q},
+        "估值吸引力": {"max": 20, "items": v},
+        "财务健康": {"max": 12, "items": h},
+        "流动性与规模": {"max": 8, "items": l},
     }
     total = sum(s["score"] for s in all_scores)
 
@@ -238,6 +302,24 @@ def main():
     if flags and rating == "低估/优质":
         rating, emoji = "合理", "🟡"
         flags.append("（已执行降档）")
+
+    # 质量底线封顶：最新报告期净利率 < 2% 或 最新年度 ROE < 5% → 最多"谨慎"
+    nm_now = d.get("net_margin")
+    roe_annual = None
+    annual = (fina or {}).get("annual") or []
+    for r in reversed(annual):
+        if str(r.get("end_date", "")).endswith("1231"):
+            roe_annual = r.get("roe_waa")
+            break
+    quality_floor = []
+    if nm_now is not None and nm_now < 2:
+        quality_floor.append(f"净利率 {nm_now:.1f}% < 2%")
+    if roe_annual is not None and roe_annual < 5:
+        quality_floor.append(f"年度ROE {roe_annual:.1f}% < 5%")
+    if quality_floor:
+        if rating in ("低估/优质", "合理"):
+            rating, emoji = "谨慎", "🟠"
+        flags.append(f"质量底线触发（{'、'.join(quality_floor)}），评级封顶为谨慎")
 
     result = {
         "ts_code": basic.get("ts_code") or d.get("trade_date"),

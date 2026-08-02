@@ -1,7 +1,4438 @@
 {
-  "records": [],
-  "forward_year": null,
-  "forward_np": null,
-  "n_orgs": 0,
-  "note": "report_rc 数据不可得（权限不足/频率受限/无研报覆盖）"
+  "records": [
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240818",
+      "org_name": "国盛证券",
+      "quarter": "2024Q4",
+      "np": 153103.144,
+      "eps": 2.16,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240818",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 224693.04,
+      "eps": 3.17,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240818",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 299826.99,
+      "eps": 4.23,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 234000.0,
+      "eps": 3.3,
+      "pe": 29.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "开源证券",
+      "quarter": "2024Q4",
+      "np": 154200.0,
+      "eps": 2.18,
+      "pe": 45.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 328800.0,
+      "eps": 4.64,
+      "pe": 21.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 483100.0,
+      "eps": 6.82,
+      "pe": 14.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 630400.0,
+      "eps": 8.89,
+      "pe": 11.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "国盛证券",
+      "quarter": "2024Q4",
+      "np": 240100.0,
+      "eps": 3.39,
+      "pe": 28.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "华泰证券",
+      "quarter": "2025Q4",
+      "np": 300800.0,
+      "eps": 4.24,
+      "pe": 23.06,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "华泰证券",
+      "quarter": "2026Q4",
+      "np": 390000.0,
+      "eps": 5.5,
+      "pe": 17.78,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "华泰证券",
+      "quarter": "2024Q4",
+      "np": 196000.0,
+      "eps": 2.77,
+      "pe": 35.38,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "民生证券",
+      "quarter": "2026Q4",
+      "np": 478100.0,
+      "eps": 6.74,
+      "pe": 14.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "民生证券",
+      "quarter": "2025Q4",
+      "np": 365200.0,
+      "eps": 5.15,
+      "pe": 18.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240829",
+      "org_name": "民生证券",
+      "quarter": "2024Q4",
+      "np": 216700.0,
+      "eps": 3.06,
+      "pe": 30.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240831",
+      "org_name": "国元证券",
+      "quarter": "2024Q4",
+      "np": 201896.0,
+      "eps": 2.84,
+      "pe": 32.98,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240831",
+      "org_name": "国元证券",
+      "quarter": "2026Q4",
+      "np": 374529.0,
+      "eps": 5.28,
+      "pe": 17.78,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240831",
+      "org_name": "国元证券",
+      "quarter": "2025Q4",
+      "np": 275975.0,
+      "eps": 3.89,
+      "pe": 24.13,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240831",
+      "org_name": "国联证券",
+      "quarter": "2024Q4",
+      "np": 153000.0,
+      "eps": 2.16,
+      "pe": 43.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240831",
+      "org_name": "国联证券",
+      "quarter": "2025Q4",
+      "np": 224900.0,
+      "eps": 3.17,
+      "pe": 29.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240831",
+      "org_name": "国联证券",
+      "quarter": "2026Q4",
+      "np": 332900.0,
+      "eps": 4.7,
+      "pe": 20.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "国泰君安",
+      "quarter": "2026Q4",
+      "np": 614700.0,
+      "eps": 8.67,
+      "pe": 10.81,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "国泰君安",
+      "quarter": "2025Q4",
+      "np": 514700.0,
+      "eps": 7.26,
+      "pe": 12.92,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "国泰君安",
+      "quarter": "2024Q4",
+      "np": 231300.0,
+      "eps": 3.26,
+      "pe": 28.74,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "兴业证券",
+      "quarter": "2024Q4",
+      "np": 179000.0,
+      "eps": 2.525,
+      "pe": 36.3,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "兴业证券",
+      "quarter": "2025Q4",
+      "np": 262200.0,
+      "eps": 3.699,
+      "pe": 24.8,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "兴业证券",
+      "quarter": "2026Q4",
+      "np": 366500.0,
+      "eps": 5.171,
+      "pe": 17.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "华龙证券",
+      "quarter": "2026Q4",
+      "np": 460100.0,
+      "eps": 6.49,
+      "pe": 14.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "华龙证券",
+      "quarter": "2025Q4",
+      "np": 334900.0,
+      "eps": 4.72,
+      "pe": 19.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240901",
+      "org_name": "华龙证券",
+      "quarter": "2024Q4",
+      "np": 204500.0,
+      "eps": 2.88,
+      "pe": 32.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240902",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 565869.0,
+      "eps": null,
+      "pe": 11.08,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240902",
+      "org_name": "中信建投",
+      "quarter": "2024Q4",
+      "np": 206126.0,
+      "eps": null,
+      "pe": 30.43,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240902",
+      "org_name": "中信建投",
+      "quarter": "2025Q4",
+      "np": 405626.0,
+      "eps": null,
+      "pe": 15.46,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240904",
+      "org_name": "中信证券",
+      "quarter": "2024Q4",
+      "np": 195900.0,
+      "eps": 2.76,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240904",
+      "org_name": "中信证券",
+      "quarter": "2025Q4",
+      "np": 296200.0,
+      "eps": 4.18,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240904",
+      "org_name": "中信证券",
+      "quarter": "2026Q4",
+      "np": 394600.0,
+      "eps": 5.57,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240905",
+      "org_name": "海通证券",
+      "quarter": "2025Q4",
+      "np": 425000.0,
+      "eps": 6.0,
+      "pe": 15.06,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240905",
+      "org_name": "海通证券",
+      "quarter": "2026Q4",
+      "np": 552100.0,
+      "eps": 7.79,
+      "pe": 11.59,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240905",
+      "org_name": "海通证券",
+      "quarter": "2024Q4",
+      "np": 222100.0,
+      "eps": 3.13,
+      "pe": 28.81,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240908",
+      "org_name": "海通国际证券",
+      "quarter": "2024Q4",
+      "np": 222100.0,
+      "eps": 3.13,
+      "pe": 28.81,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240908",
+      "org_name": "海通国际证券",
+      "quarter": "2025Q4",
+      "np": 425000.0,
+      "eps": 6.0,
+      "pe": 15.06,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240908",
+      "org_name": "海通国际证券",
+      "quarter": "2026Q4",
+      "np": 552100.0,
+      "eps": 7.79,
+      "pe": 11.59,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240913",
+      "org_name": "山西证券",
+      "quarter": "2026Q4",
+      "np": 483600.0,
+      "eps": 6.82,
+      "pe": 12.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240913",
+      "org_name": "山西证券",
+      "quarter": "2025Q4",
+      "np": 436400.0,
+      "eps": 6.16,
+      "pe": 14.3,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240913",
+      "org_name": "山西证券",
+      "quarter": "2024Q4",
+      "np": 219700.0,
+      "eps": 3.1,
+      "pe": 28.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240918",
+      "org_name": "山西证券",
+      "quarter": "2024Q4",
+      "np": 220000.0,
+      "eps": 3.104,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240918",
+      "org_name": "山西证券",
+      "quarter": "2025Q4",
+      "np": 436000.0,
+      "eps": 6.151,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240918",
+      "org_name": "山西证券",
+      "quarter": "2026Q4",
+      "np": 484000.0,
+      "eps": 6.828,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240919",
+      "org_name": "东方财富证券",
+      "quarter": "2024Q4",
+      "np": 200726.0,
+      "eps": 2.83,
+      "pe": 35.16,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240919",
+      "org_name": "东方财富证券",
+      "quarter": "2025Q4",
+      "np": 281322.0,
+      "eps": 3.97,
+      "pe": 25.09,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240919",
+      "org_name": "东方财富证券",
+      "quarter": "2026Q4",
+      "np": 369123.0,
+      "eps": 5.21,
+      "pe": 19.12,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240922",
+      "org_name": "长江证券",
+      "quarter": "2024Q4",
+      "np": 219800.0,
+      "eps": 3.1,
+      "pe": 30.88,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240922",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 360800.0,
+      "eps": 5.09,
+      "pe": 18.81,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240922",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 445300.0,
+      "eps": 6.28,
+      "pe": 15.24,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240924",
+      "org_name": "浙商证券",
+      "quarter": "2024Q4",
+      "np": 187800.0,
+      "eps": 2.65,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240924",
+      "org_name": "浙商证券",
+      "quarter": "2026Q4",
+      "np": 424100.0,
+      "eps": 5.983,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240924",
+      "org_name": "浙商证券",
+      "quarter": "2025Q4",
+      "np": 317500.0,
+      "eps": 4.479,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240929",
+      "org_name": "华创证券",
+      "quarter": "2024Q4",
+      "np": 209900.0,
+      "eps": 2.96,
+      "pe": 32.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240929",
+      "org_name": "华创证券",
+      "quarter": "2025Q4",
+      "np": 352100.0,
+      "eps": 4.97,
+      "pe": 19.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20240929",
+      "org_name": "华创证券",
+      "quarter": "2026Q4",
+      "np": 454200.0,
+      "eps": 6.41,
+      "pe": 15.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241021",
+      "org_name": "银河证券",
+      "quarter": "2026Q4",
+      "np": 530900.0,
+      "eps": 7.49,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241021",
+      "org_name": "银河证券",
+      "quarter": "2024Q4",
+      "np": 217300.0,
+      "eps": 3.07,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241021",
+      "org_name": "银河证券",
+      "quarter": "2025Q4",
+      "np": 400600.0,
+      "eps": 5.65,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "华泰证券",
+      "quarter": "2026Q4",
+      "np": 498100.0,
+      "eps": 7.03,
+      "pe": 19.85,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "华泰证券",
+      "quarter": "2025Q4",
+      "np": 383300.0,
+      "eps": 5.41,
+      "pe": 25.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "华泰证券",
+      "quarter": "2024Q4",
+      "np": 246100.0,
+      "eps": 3.47,
+      "pe": 40.19,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "国盛证券",
+      "quarter": "2024Q4",
+      "np": 240100.0,
+      "eps": 3.39,
+      "pe": 41.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 483100.0,
+      "eps": 6.82,
+      "pe": 20.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 630400.0,
+      "eps": 8.89,
+      "pe": 15.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "开源证券",
+      "quarter": "2024Q4",
+      "np": 256200.0,
+      "eps": 3.61,
+      "pe": 38.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 405600.0,
+      "eps": 5.72,
+      "pe": 24.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241024",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 575600.0,
+      "eps": 8.12,
+      "pe": 17.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241025",
+      "org_name": "国联证券",
+      "quarter": "2024Q4",
+      "np": 196300.0,
+      "eps": 2.77,
+      "pe": 50.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241025",
+      "org_name": "国联证券",
+      "quarter": "2025Q4",
+      "np": 272200.0,
+      "eps": 3.84,
+      "pe": 36.3,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241025",
+      "org_name": "国联证券",
+      "quarter": "2026Q4",
+      "np": 378000.0,
+      "eps": 5.33,
+      "pe": 26.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241025",
+      "org_name": "招商证券",
+      "quarter": "2026Q4",
+      "np": 565900.0,
+      "eps": 7.98,
+      "pe": 17.5,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241025",
+      "org_name": "招商证券",
+      "quarter": "2025Q4",
+      "np": 432100.0,
+      "eps": 6.1,
+      "pe": 22.9,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241025",
+      "org_name": "招商证券",
+      "quarter": "2024Q4",
+      "np": 231700.0,
+      "eps": 3.27,
+      "pe": 42.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241026",
+      "org_name": "民生证券",
+      "quarter": "2026Q4",
+      "np": 537400.0,
+      "eps": 7.58,
+      "pe": 19.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241026",
+      "org_name": "民生证券",
+      "quarter": "2024Q4",
+      "np": 250100.0,
+      "eps": 3.53,
+      "pe": 40.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241026",
+      "org_name": "民生证券",
+      "quarter": "2025Q4",
+      "np": 430600.0,
+      "eps": 6.08,
+      "pe": 23.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241027",
+      "org_name": "国泰君安",
+      "quarter": "2024Q4",
+      "np": 255300.0,
+      "eps": 3.6,
+      "pe": 39.6,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241027",
+      "org_name": "国泰君安",
+      "quarter": "2025Q4",
+      "np": 545700.0,
+      "eps": 7.7,
+      "pe": 18.53,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241027",
+      "org_name": "国泰君安",
+      "quarter": "2026Q4",
+      "np": 636000.0,
+      "eps": 8.97,
+      "pe": 15.9,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241028",
+      "org_name": "东方财富证券",
+      "quarter": "2024Q4",
+      "np": 200726.0,
+      "eps": 2.83,
+      "pe": 50.37,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241028",
+      "org_name": "东方财富证券",
+      "quarter": "2026Q4",
+      "np": 369123.0,
+      "eps": 5.21,
+      "pe": 27.39,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241028",
+      "org_name": "东方财富证券",
+      "quarter": "2025Q4",
+      "np": 281322.0,
+      "eps": 3.97,
+      "pe": 35.94,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "国元证券",
+      "quarter": "2024Q4",
+      "np": 221983.0,
+      "eps": 3.13,
+      "pe": 43.51,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "国元证券",
+      "quarter": "2025Q4",
+      "np": 363505.0,
+      "eps": 5.12,
+      "pe": 26.57,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "国元证券",
+      "quarter": "2026Q4",
+      "np": 505890.0,
+      "eps": 7.13,
+      "pe": 19.09,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "兴业证券",
+      "quarter": "2024Q4",
+      "np": 231300.0,
+      "eps": 3.26,
+      "pe": 41.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "兴业证券",
+      "quarter": "2025Q4",
+      "np": 424200.0,
+      "eps": 5.98,
+      "pe": 22.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "兴业证券",
+      "quarter": "2026Q4",
+      "np": 537500.0,
+      "eps": 7.58,
+      "pe": 17.9,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "华龙证券",
+      "quarter": "2025Q4",
+      "np": 400800.0,
+      "eps": 5.65,
+      "pe": 24.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "华龙证券",
+      "quarter": "2024Q4",
+      "np": 233900.0,
+      "eps": 3.3,
+      "pe": 41.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "华龙证券",
+      "quarter": "2026Q4",
+      "np": 554900.0,
+      "eps": 7.83,
+      "pe": 17.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "华泰香港",
+      "quarter": "2024Q4",
+      "np": 246100.0,
+      "eps": 3.47,
+      "pe": null,
+      "rating": "BUY"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "华泰香港",
+      "quarter": "2025Q4",
+      "np": 383300.0,
+      "eps": 5.41,
+      "pe": null,
+      "rating": "BUY"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "华泰香港",
+      "quarter": "2026Q4",
+      "np": 498100.0,
+      "eps": 7.03,
+      "pe": null,
+      "rating": "BUY"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "银河证券",
+      "quarter": "2024Q4",
+      "np": 247847.0,
+      "eps": 3.5,
+      "pe": 37.32,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "银河证券",
+      "quarter": "2025Q4",
+      "np": 457178.0,
+      "eps": 6.45,
+      "pe": 20.23,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241029",
+      "org_name": "银河证券",
+      "quarter": "2026Q4",
+      "np": 606369.0,
+      "eps": 8.55,
+      "pe": 15.25,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241030",
+      "org_name": "长江证券",
+      "quarter": "2024Q4",
+      "np": 248000.0,
+      "eps": 3.5,
+      "pe": 38.89,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241030",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 429700.0,
+      "eps": 6.06,
+      "pe": 22.44,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241030",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 518200.0,
+      "eps": 7.31,
+      "pe": 18.61,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241105",
+      "org_name": "中信建投",
+      "quarter": "2024Q4",
+      "np": 233353.0,
+      "eps": null,
+      "pe": 39.29,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241105",
+      "org_name": "中信建投",
+      "quarter": "2025Q4",
+      "np": 430275.0,
+      "eps": null,
+      "pe": 21.31,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241105",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 600644.0,
+      "eps": null,
+      "pe": 15.27,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241106",
+      "org_name": "山西证券",
+      "quarter": "2024Q4",
+      "np": 224300.0,
+      "eps": 3.16,
+      "pe": 43.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241106",
+      "org_name": "山西证券",
+      "quarter": "2025Q4",
+      "np": 445400.0,
+      "eps": 6.28,
+      "pe": 21.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241106",
+      "org_name": "山西证券",
+      "quarter": "2026Q4",
+      "np": 545700.0,
+      "eps": 7.7,
+      "pe": 17.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241112",
+      "org_name": "海通证券",
+      "quarter": "2024Q4",
+      "np": 240100.0,
+      "eps": 3.39,
+      "pe": 40.17,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241112",
+      "org_name": "海通证券",
+      "quarter": "2025Q4",
+      "np": 455100.0,
+      "eps": 6.42,
+      "pe": 21.19,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241112",
+      "org_name": "海通证券",
+      "quarter": "2026Q4",
+      "np": 587900.0,
+      "eps": 8.29,
+      "pe": 16.4,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241112",
+      "org_name": "海通国际证券",
+      "quarter": "2024Q4",
+      "np": 240100.0,
+      "eps": 3.39,
+      "pe": 40.17,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241112",
+      "org_name": "海通国际证券",
+      "quarter": "2026Q4",
+      "np": 587900.0,
+      "eps": 8.29,
+      "pe": 16.4,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241112",
+      "org_name": "海通国际证券",
+      "quarter": "2025Q4",
+      "np": 455100.0,
+      "eps": 6.42,
+      "pe": 21.19,
+      "rating": "优于大市"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241119",
+      "org_name": "华创证券",
+      "quarter": "2024Q4",
+      "np": 210000.0,
+      "eps": 2.963,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241119",
+      "org_name": "华创证券",
+      "quarter": "2025Q4",
+      "np": 352000.0,
+      "eps": 4.966,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241119",
+      "org_name": "华创证券",
+      "quarter": "2026Q4",
+      "np": 454000.0,
+      "eps": 6.405,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241125",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 600600.0,
+      "eps": 8.473,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241125",
+      "org_name": "中信建投",
+      "quarter": "2025Q4",
+      "np": 430300.0,
+      "eps": 6.071,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241125",
+      "org_name": "中信建投",
+      "quarter": "2024Q4",
+      "np": 233400.0,
+      "eps": 3.293,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241205",
+      "org_name": "中原证券",
+      "quarter": "2024Q4",
+      "np": 231070.969,
+      "eps": 3.26,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20241205",
+      "org_name": "中原证券",
+      "quarter": "2025Q4",
+      "np": 408981.438,
+      "eps": 5.77,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250106",
+      "org_name": "国元证券",
+      "quarter": "2024Q4",
+      "np": 234615.002,
+      "eps": 3.31,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250106",
+      "org_name": "国元证券",
+      "quarter": "2025Q4",
+      "np": 440877.738,
+      "eps": 6.22,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250108",
+      "org_name": "长江证券",
+      "quarter": "2024Q4",
+      "np": 255170.395,
+      "eps": 3.6,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250108",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 429536.831,
+      "eps": 6.06,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250108",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 518137.663,
+      "eps": 7.31,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250121",
+      "org_name": "国盛证券",
+      "quarter": "2024Q4",
+      "np": 292900.0,
+      "eps": 4.13,
+      "pe": 30.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250121",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 623700.0,
+      "eps": 8.8,
+      "pe": 14.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250121",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 849500.0,
+      "eps": 11.99,
+      "pe": 10.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250121",
+      "org_name": "华创证券",
+      "quarter": "2024Q4",
+      "np": 292200.0,
+      "eps": 4.12,
+      "pe": 31.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250121",
+      "org_name": "华创证券",
+      "quarter": "2025Q4",
+      "np": 571100.0,
+      "eps": 8.06,
+      "pe": 16.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250121",
+      "org_name": "华创证券",
+      "quarter": "2026Q4",
+      "np": 719300.0,
+      "eps": 10.15,
+      "pe": 13.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250122",
+      "org_name": "华鑫证券",
+      "quarter": "2024Q4",
+      "np": 124749.971,
+      "eps": 1.76,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250122",
+      "org_name": "华鑫证券",
+      "quarter": "2025Q4",
+      "np": 187124.956,
+      "eps": 2.64,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250123",
+      "org_name": "国泰君安",
+      "quarter": "2024Q4",
+      "np": 290300.0,
+      "eps": 4.1,
+      "pe": 34.55,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250123",
+      "org_name": "国泰君安",
+      "quarter": "2025Q4",
+      "np": 563200.0,
+      "eps": 7.95,
+      "pe": 17.81,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250123",
+      "org_name": "国泰君安",
+      "quarter": "2026Q4",
+      "np": 644700.0,
+      "eps": 9.1,
+      "pe": 15.56,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250125",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 849150.369,
+      "eps": 11.98,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250125",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 623749.854,
+      "eps": 8.8,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250125",
+      "org_name": "国盛证券",
+      "quarter": "2024Q4",
+      "np": 292737.147,
+      "eps": 4.13,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250204",
+      "org_name": "长江证券",
+      "quarter": "2024Q4",
+      "np": 292400.0,
+      "eps": 4.125,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250204",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 651300.0,
+      "eps": 9.189,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250204",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 470000.0,
+      "eps": 6.631,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250307",
+      "org_name": "中金",
+      "quarter": "2025Q4",
+      "np": 207400.0,
+      "eps": 2.926,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250307",
+      "org_name": "中金",
+      "quarter": "2026Q4",
+      "np": 244200.0,
+      "eps": 3.445,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250318",
+      "org_name": "国金证券",
+      "quarter": "2024Q4",
+      "np": 290006.0,
+      "eps": 4.091,
+      "pe": 23.38,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250318",
+      "org_name": "国金证券",
+      "quarter": "2025Q4",
+      "np": 570775.0,
+      "eps": 8.053,
+      "pe": 11.88,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250318",
+      "org_name": "国金证券",
+      "quarter": "2026Q4",
+      "np": 791897.0,
+      "eps": 11.172,
+      "pe": 8.56,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250410",
+      "org_name": "山西证券",
+      "quarter": "2025Q4",
+      "np": 445000.0,
+      "eps": 6.278,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250410",
+      "org_name": "山西证券",
+      "quarter": "2024Q4",
+      "np": 224000.0,
+      "eps": 3.16,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250422",
+      "org_name": "国金证券",
+      "quarter": "2024Q4",
+      "np": 283800.0,
+      "eps": 4.004,
+      "pe": 28.87,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250422",
+      "org_name": "国金证券",
+      "quarter": "2025Q4",
+      "np": 539100.0,
+      "eps": 7.606,
+      "pe": 10.68,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250422",
+      "org_name": "国金证券",
+      "quarter": "2026Q4",
+      "np": 716000.0,
+      "eps": 10.102,
+      "pe": 8.04,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250422",
+      "org_name": "国金证券",
+      "quarter": "2027Q4",
+      "np": 919000.0,
+      "eps": 12.965,
+      "pe": 6.26,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 688800.0,
+      "eps": 9.72,
+      "pe": 8.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 918000.0,
+      "eps": 12.95,
+      "pe": 6.3,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 1201500.0,
+      "eps": 16.95,
+      "pe": 4.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "华泰证券",
+      "quarter": "2027Q4",
+      "np": 709600.0,
+      "eps": 10.01,
+      "pe": 8.11,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "华泰证券",
+      "quarter": "2026Q4",
+      "np": 617400.0,
+      "eps": 8.71,
+      "pe": 9.32,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "华泰证券",
+      "quarter": "2025Q4",
+      "np": 483900.0,
+      "eps": 6.83,
+      "pe": 11.89,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "开源证券",
+      "quarter": "2027Q4",
+      "np": 808200.0,
+      "eps": 11.4,
+      "pe": 8.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 706100.0,
+      "eps": 9.96,
+      "pe": 9.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 604900.0,
+      "eps": 8.53,
+      "pe": 10.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "银河证券",
+      "quarter": "2025Q4",
+      "np": 609588.0,
+      "eps": 8.6,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "银河证券",
+      "quarter": "2027Q4",
+      "np": 1029370.0,
+      "eps": 14.52,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250423",
+      "org_name": "银河证券",
+      "quarter": "2026Q4",
+      "np": 799425.0,
+      "eps": 11.28,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "招商证券",
+      "quarter": "2025Q4",
+      "np": 603800.0,
+      "eps": 8.52,
+      "pe": 10.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "招商证券",
+      "quarter": "2026Q4",
+      "np": 725600.0,
+      "eps": 10.24,
+      "pe": 8.9,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "招商证券",
+      "quarter": "2027Q4",
+      "np": 831200.0,
+      "eps": 11.73,
+      "pe": 7.8,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "兴业证券",
+      "quarter": "2025Q4",
+      "np": 665800.0,
+      "eps": 9.39,
+      "pe": 9.6,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "兴业证券",
+      "quarter": "2026Q4",
+      "np": 890400.0,
+      "eps": 12.56,
+      "pe": 7.2,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "兴业证券",
+      "quarter": "2027Q4",
+      "np": 1130700.0,
+      "eps": 15.95,
+      "pe": 5.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "民生证券",
+      "quarter": "2027Q4",
+      "np": 875700.0,
+      "eps": 12.36,
+      "pe": 7.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "民生证券",
+      "quarter": "2025Q4",
+      "np": 601300.0,
+      "eps": 8.48,
+      "pe": 11.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250424",
+      "org_name": "民生证券",
+      "quarter": "2026Q4",
+      "np": 761600.0,
+      "eps": 10.74,
+      "pe": 8.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250428",
+      "org_name": "广发证券",
+      "quarter": "2027Q4",
+      "np": 1157300.0,
+      "eps": 16.33,
+      "pe": 5.83,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250428",
+      "org_name": "广发证券",
+      "quarter": "2026Q4",
+      "np": 900400.0,
+      "eps": 12.7,
+      "pe": 7.49,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250428",
+      "org_name": "广发证券",
+      "quarter": "2025Q4",
+      "np": 678800.0,
+      "eps": 9.58,
+      "pe": 9.94,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250429",
+      "org_name": "中信建投",
+      "quarter": "2027Q4",
+      "np": 884959.0,
+      "eps": null,
+      "pe": 7.62,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250429",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 746408.0,
+      "eps": null,
+      "pe": 9.04,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250429",
+      "org_name": "中信建投",
+      "quarter": "2025Q4",
+      "np": 604735.0,
+      "eps": null,
+      "pe": 11.15,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250429",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 602485.654,
+      "eps": 8.5,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250429",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 708806.652,
+      "eps": 10.0,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250429",
+      "org_name": "开源证券",
+      "quarter": "2027Q4",
+      "np": 808039.583,
+      "eps": 11.4,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250505",
+      "org_name": "国元证券",
+      "quarter": "2025Q4",
+      "np": 440877.738,
+      "eps": 6.22,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250505",
+      "org_name": "国元证券",
+      "quarter": "2026Q4",
+      "np": 552869.189,
+      "eps": 7.8,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250505",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 689000.0,
+      "eps": 9.721,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250505",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 918000.0,
+      "eps": 12.951,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250505",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 1202000.0,
+      "eps": 16.958,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250508",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 655400.0,
+      "eps": 9.25,
+      "pe": 10.13,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250508",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 797200.0,
+      "eps": 11.25,
+      "pe": 8.32,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250508",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 910600.0,
+      "eps": 12.85,
+      "pe": 7.29,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250510",
+      "org_name": "华创证券",
+      "quarter": "2025Q4",
+      "np": 594700.0,
+      "eps": 8.39,
+      "pe": 11.0,
+      "rating": "强推"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250510",
+      "org_name": "华创证券",
+      "quarter": "2026Q4",
+      "np": 741700.0,
+      "eps": 10.46,
+      "pe": 9.0,
+      "rating": "强推"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250510",
+      "org_name": "华创证券",
+      "quarter": "2027Q4",
+      "np": 817700.0,
+      "eps": 11.54,
+      "pe": 8.0,
+      "rating": "强推"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250512",
+      "org_name": "天风证券",
+      "quarter": "2025Q4",
+      "np": 732975.0,
+      "eps": 10.34,
+      "pe": 10.56,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250512",
+      "org_name": "天风证券",
+      "quarter": "2026Q4",
+      "np": 1162115.0,
+      "eps": 16.4,
+      "pe": 6.66,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250512",
+      "org_name": "天风证券",
+      "quarter": "2027Q4",
+      "np": 1439800.0,
+      "eps": 20.31,
+      "pe": 5.38,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250513",
+      "org_name": "国元证券",
+      "quarter": "2025Q4",
+      "np": 544332.0,
+      "eps": 5.49,
+      "pe": 20.57,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250513",
+      "org_name": "国元证券",
+      "quarter": "2026Q4",
+      "np": 721228.0,
+      "eps": 7.27,
+      "pe": 15.53,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250513",
+      "org_name": "国元证券",
+      "quarter": "2027Q4",
+      "np": 887399.0,
+      "eps": 8.94,
+      "pe": 12.62,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250516",
+      "org_name": "中信证券",
+      "quarter": "2025Q4",
+      "np": 598600.0,
+      "eps": 8.44,
+      "pe": 13.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250516",
+      "org_name": "中信证券",
+      "quarter": "2026Q4",
+      "np": 795200.0,
+      "eps": 11.22,
+      "pe": 10.3,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250516",
+      "org_name": "中信证券",
+      "quarter": "2027Q4",
+      "np": 976200.0,
+      "eps": 13.77,
+      "pe": 8.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250523",
+      "org_name": "中信证券",
+      "quarter": "2027Q4",
+      "np": 976026.76,
+      "eps": 13.77,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250523",
+      "org_name": "中信证券",
+      "quarter": "2026Q4",
+      "np": 795281.064,
+      "eps": 11.22,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250523",
+      "org_name": "中信证券",
+      "quarter": "2025Q4",
+      "np": 598232.814,
+      "eps": 8.44,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250523",
+      "org_name": "山西证券",
+      "quarter": "2025Q4",
+      "np": 589000.0,
+      "eps": 8.31,
+      "pe": 14.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250523",
+      "org_name": "山西证券",
+      "quarter": "2027Q4",
+      "np": 921400.0,
+      "eps": 13.0,
+      "pe": 9.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250523",
+      "org_name": "山西证券",
+      "quarter": "2026Q4",
+      "np": 743100.0,
+      "eps": 10.48,
+      "pe": 11.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250527",
+      "org_name": "光大证券",
+      "quarter": "2025Q4",
+      "np": 672100.0,
+      "eps": 9.48,
+      "pe": 12.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250527",
+      "org_name": "光大证券",
+      "quarter": "2026Q4",
+      "np": 888300.0,
+      "eps": 12.53,
+      "pe": 9.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250527",
+      "org_name": "光大证券",
+      "quarter": "2027Q4",
+      "np": 1065900.0,
+      "eps": 15.04,
+      "pe": 7.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250529",
+      "org_name": "中原证券",
+      "quarter": "2025Q4",
+      "np": 643800.0,
+      "eps": 6.49,
+      "pe": 13.04,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250529",
+      "org_name": "中原证券",
+      "quarter": "2026Q4",
+      "np": 900300.0,
+      "eps": 9.07,
+      "pe": 9.33,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250529",
+      "org_name": "中原证券",
+      "quarter": "2027Q4",
+      "np": 1111500.0,
+      "eps": 11.2,
+      "pe": 7.55,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250602",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 688676.543,
+      "eps": 6.94,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250602",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 917904.614,
+      "eps": 9.25,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250602",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 1201710.797,
+      "eps": 12.11,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250614",
+      "org_name": "中信建投",
+      "quarter": "2025Q4",
+      "np": 604700.0,
+      "eps": 6.094,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250614",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 746400.0,
+      "eps": 7.522,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250614",
+      "org_name": "中信建投",
+      "quarter": "2027Q4",
+      "np": 885000.0,
+      "eps": 8.918,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250630",
+      "org_name": "中原证券",
+      "quarter": "2026Q4",
+      "np": 790886.462,
+      "eps": 7.97,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250630",
+      "org_name": "中原证券",
+      "quarter": "2025Q4",
+      "np": 608297.868,
+      "eps": 6.13,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250630",
+      "org_name": "招商证券",
+      "quarter": "2025Q4",
+      "np": 603336.222,
+      "eps": 6.08,
+      "pe": null,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250706",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 688644.42,
+      "eps": 6.93,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250706",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 918192.56,
+      "eps": 9.24,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250706",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 1201401.304,
+      "eps": 12.09,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "中信证券",
+      "quarter": "2025Q4",
+      "np": 843100.0,
+      "eps": 8.48,
+      "pe": 15.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "中信证券",
+      "quarter": "2026Q4",
+      "np": 1196300.0,
+      "eps": 12.04,
+      "pe": 10.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "中信证券",
+      "quarter": "2027Q4",
+      "np": 1472600.0,
+      "eps": 14.82,
+      "pe": 8.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 889700.0,
+      "eps": 8.95,
+      "pe": 14.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 1236800.0,
+      "eps": 12.45,
+      "pe": 10.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 1523700.0,
+      "eps": 15.33,
+      "pe": 8.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "国金证券",
+      "quarter": "2025Q4",
+      "np": 805400.0,
+      "eps": 8.105,
+      "pe": 15.61,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "国金证券",
+      "quarter": "2026Q4",
+      "np": 1238900.0,
+      "eps": 12.467,
+      "pe": 10.15,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "国金证券",
+      "quarter": "2027Q4",
+      "np": 1440900.0,
+      "eps": 14.5,
+      "pe": 8.72,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2025Q4",
+      "np": 891800.0,
+      "eps": 8.974,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 1137300.0,
+      "eps": 11.445,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250715",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 1362100.0,
+      "eps": 13.707,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250721",
+      "org_name": "国泰海通",
+      "quarter": "2025Q4",
+      "np": 870200.0,
+      "eps": 8.76,
+      "pe": 20.96,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250721",
+      "org_name": "国泰海通",
+      "quarter": "2026Q4",
+      "np": 1191900.0,
+      "eps": 11.99,
+      "pe": 15.3,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250721",
+      "org_name": "国泰海通",
+      "quarter": "2027Q4",
+      "np": 1522300.0,
+      "eps": 15.32,
+      "pe": 11.98,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250721",
+      "org_name": "华鑫证券",
+      "quarter": "2025Q4",
+      "np": 841800.0,
+      "eps": 8.47,
+      "pe": 21.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250721",
+      "org_name": "华鑫证券",
+      "quarter": "2026Q4",
+      "np": 1191200.0,
+      "eps": 11.99,
+      "pe": 15.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250721",
+      "org_name": "华鑫证券",
+      "quarter": "2027Q4",
+      "np": 1506600.0,
+      "eps": 15.16,
+      "pe": 12.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250723",
+      "org_name": "群益证券",
+      "quarter": "2025Q4",
+      "np": 868100.0,
+      "eps": 8.74,
+      "pe": 20.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250723",
+      "org_name": "群益证券",
+      "quarter": "2026Q4",
+      "np": 1174600.0,
+      "eps": 11.82,
+      "pe": 15.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250723",
+      "org_name": "群益证券",
+      "quarter": "2027Q4",
+      "np": 1407400.0,
+      "eps": 14.16,
+      "pe": 12.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250813",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2025Q4",
+      "np": 914100.0,
+      "eps": 9.199,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250813",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 1294300.0,
+      "eps": 13.025,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250813",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 1550800.0,
+      "eps": 15.606,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "国金证券",
+      "quarter": "2025Q4",
+      "np": 761100.0,
+      "eps": 7.659,
+      "pe": 16.51,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "国金证券",
+      "quarter": "2026Q4",
+      "np": 1308700.0,
+      "eps": 13.169,
+      "pe": 9.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "国金证券",
+      "quarter": "2027Q4",
+      "np": 1728900.0,
+      "eps": 17.398,
+      "pe": 7.27,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "华泰证券",
+      "quarter": "2025Q4",
+      "np": 813100.0,
+      "eps": 8.18,
+      "pe": 34.47,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "华泰证券",
+      "quarter": "2026Q4",
+      "np": 1276300.0,
+      "eps": 12.84,
+      "pe": 21.96,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 839100.0,
+      "eps": 8.44,
+      "pe": 33.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "华泰证券",
+      "quarter": "2027Q4",
+      "np": 1600800.0,
+      "eps": 16.11,
+      "pe": 17.51,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "开源证券",
+      "quarter": "2027Q4",
+      "np": 1655400.0,
+      "eps": 16.66,
+      "pe": 16.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 1438200.0,
+      "eps": 14.47,
+      "pe": 19.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "招商证券",
+      "quarter": "2025Q4",
+      "np": 938000.0,
+      "eps": 9.44,
+      "pe": 29.9,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "招商证券",
+      "quarter": "2026Q4",
+      "np": 1341400.0,
+      "eps": 13.5,
+      "pe": 20.9,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250826",
+      "org_name": "招商证券",
+      "quarter": "2027Q4",
+      "np": 1678100.0,
+      "eps": 16.89,
+      "pe": 16.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250827",
+      "org_name": "民生证券",
+      "quarter": "2025Q4",
+      "np": 872800.0,
+      "eps": 8.78,
+      "pe": 35.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250827",
+      "org_name": "民生证券",
+      "quarter": "2026Q4",
+      "np": 1301900.0,
+      "eps": 13.1,
+      "pe": 24.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250827",
+      "org_name": "民生证券",
+      "quarter": "2027Q4",
+      "np": 1570600.0,
+      "eps": 15.81,
+      "pe": 20.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250827",
+      "org_name": "东北证券",
+      "quarter": "2025Q4",
+      "np": 907100.0,
+      "eps": 9.13,
+      "pe": 30.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250827",
+      "org_name": "东北证券",
+      "quarter": "2027Q4",
+      "np": 1981900.0,
+      "eps": 19.94,
+      "pe": 14.14,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250827",
+      "org_name": "东北证券",
+      "quarter": "2026Q4",
+      "np": 1501300.0,
+      "eps": 15.11,
+      "pe": 18.67,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250829",
+      "org_name": "华龙证券",
+      "quarter": "2025Q4",
+      "np": 864700.0,
+      "eps": 8.7,
+      "pe": 40.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250829",
+      "org_name": "华龙证券",
+      "quarter": "2026Q4",
+      "np": 1308500.0,
+      "eps": 13.17,
+      "pe": 27.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250829",
+      "org_name": "华龙证券",
+      "quarter": "2027Q4",
+      "np": 1619100.0,
+      "eps": 16.29,
+      "pe": 21.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250829",
+      "org_name": "银河证券",
+      "quarter": "2025Q4",
+      "np": 832910.0,
+      "eps": 8.38,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250829",
+      "org_name": "银河证券",
+      "quarter": "2026Q4",
+      "np": 1258092.0,
+      "eps": 12.66,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250829",
+      "org_name": "银河证券",
+      "quarter": "2027Q4",
+      "np": 1625928.0,
+      "eps": 16.36,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250830",
+      "org_name": "国泰海通",
+      "quarter": "2025Q4",
+      "np": 902100.0,
+      "eps": 9.08,
+      "pe": 39.24,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250830",
+      "org_name": "国泰海通",
+      "quarter": "2026Q4",
+      "np": 1685100.0,
+      "eps": 16.96,
+      "pe": 21.01,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250830",
+      "org_name": "国泰海通",
+      "quarter": "2027Q4",
+      "np": 1907700.0,
+      "eps": 19.2,
+      "pe": 18.55,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250901",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 1248900.0,
+      "eps": 12.57,
+      "pe": 28.34,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250901",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 1046200.0,
+      "eps": 10.53,
+      "pe": 33.83,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250901",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 779700.0,
+      "eps": 7.85,
+      "pe": 45.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250905",
+      "org_name": "兴业证券",
+      "quarter": "2027Q4",
+      "np": 1699800.0,
+      "eps": 17.11,
+      "pe": 18.2,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250905",
+      "org_name": "兴业证券",
+      "quarter": "2026Q4",
+      "np": 1387100.0,
+      "eps": 13.96,
+      "pe": 22.4,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250905",
+      "org_name": "兴业证券",
+      "quarter": "2025Q4",
+      "np": 872000.0,
+      "eps": 8.77,
+      "pe": 35.6,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250914",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 1523759.616,
+      "eps": 15.33,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250914",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 1236501.606,
+      "eps": 12.44,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20250914",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 889605.255,
+      "eps": 8.95,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251026",
+      "org_name": "国信证券",
+      "quarter": "2025Q4",
+      "np": 1000000.0,
+      "eps": 10.061,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251028",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 834936.776,
+      "eps": 8.4,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251028",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 1441259.91,
+      "eps": 14.5,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251028",
+      "org_name": "开源证券",
+      "quarter": "2027Q4",
+      "np": 1659933.828,
+      "eps": 16.7,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251029",
+      "org_name": "国金证券",
+      "quarter": "2025Q4",
+      "np": 997600.0,
+      "eps": 10.037,
+      "pe": 40.46,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251029",
+      "org_name": "国金证券",
+      "quarter": "2026Q4",
+      "np": 3066500.0,
+      "eps": 30.851,
+      "pe": 13.16,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251029",
+      "org_name": "国金证券",
+      "quarter": "2027Q4",
+      "np": 4242800.0,
+      "eps": 42.685,
+      "pe": 9.51,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "华泰证券",
+      "quarter": "2025Q4",
+      "np": 877500.0,
+      "eps": 8.83,
+      "pe": 46.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "华泰证券",
+      "quarter": "2026Q4",
+      "np": 1502100.0,
+      "eps": 15.11,
+      "pe": 26.87,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "华泰证券",
+      "quarter": "2027Q4",
+      "np": 1796300.0,
+      "eps": 18.07,
+      "pe": 22.47,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "开源证券",
+      "quarter": "2025Q4",
+      "np": 839100.0,
+      "eps": 8.44,
+      "pe": 48.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 1438200.0,
+      "eps": 14.47,
+      "pe": 28.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "开源证券",
+      "quarter": "2027Q4",
+      "np": 1655400.0,
+      "eps": 16.65,
+      "pe": 24.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "招商证券",
+      "quarter": "2027Q4",
+      "np": 1678100.0,
+      "eps": 16.89,
+      "pe": 24.0,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "招商证券",
+      "quarter": "2026Q4",
+      "np": 1341400.0,
+      "eps": 13.5,
+      "pe": 30.1,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "招商证券",
+      "quarter": "2025Q4",
+      "np": 938000.0,
+      "eps": 9.44,
+      "pe": 43.0,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 952300.0,
+      "eps": 9.58,
+      "pe": 42.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 1881500.0,
+      "eps": 18.93,
+      "pe": 21.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251030",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 2722200.0,
+      "eps": 27.39,
+      "pe": 14.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251031",
+      "org_name": "国元证券",
+      "quarter": "2025Q4",
+      "np": 983816.0,
+      "eps": 9.91,
+      "pe": 34.73,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251031",
+      "org_name": "国元证券",
+      "quarter": "2026Q4",
+      "np": 1448406.0,
+      "eps": 14.6,
+      "pe": 23.59,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251031",
+      "org_name": "国元证券",
+      "quarter": "2027Q4",
+      "np": 1868971.0,
+      "eps": 18.83,
+      "pe": 18.28,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251101",
+      "org_name": "民生证券",
+      "quarter": "2025Q4",
+      "np": 885800.0,
+      "eps": 8.91,
+      "pe": 39.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251101",
+      "org_name": "民生证券",
+      "quarter": "2026Q4",
+      "np": 1899900.0,
+      "eps": 19.11,
+      "pe": 18.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251101",
+      "org_name": "民生证券",
+      "quarter": "2027Q4",
+      "np": 2638900.0,
+      "eps": 26.55,
+      "pe": 13.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251102",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 779700.0,
+      "eps": 7.85,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251102",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 1056000.0,
+      "eps": 10.63,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251102",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 1258400.0,
+      "eps": 12.66,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251102",
+      "org_name": "银河证券",
+      "quarter": "2025Q4",
+      "np": 866000.0,
+      "eps": 8.71,
+      "pe": 39.52,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251102",
+      "org_name": "银河证券",
+      "quarter": "2026Q4",
+      "np": 1614100.0,
+      "eps": 16.24,
+      "pe": 21.2,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251102",
+      "org_name": "银河证券",
+      "quarter": "2027Q4",
+      "np": 2166900.0,
+      "eps": 21.8,
+      "pe": 15.79,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251103",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 876300.0,
+      "eps": 8.82,
+      "pe": 39.06,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251103",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 1512400.0,
+      "eps": 15.22,
+      "pe": 22.63,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251103",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 1974400.0,
+      "eps": 19.86,
+      "pe": 17.33,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251112",
+      "org_name": "东北证券",
+      "quarter": "2025Q4",
+      "np": 907496.757,
+      "eps": 9.13,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251112",
+      "org_name": "东北证券",
+      "quarter": "2026Q4",
+      "np": 1500898.252,
+      "eps": 15.1,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251112",
+      "org_name": "东北证券",
+      "quarter": "2027Q4",
+      "np": 1981980.87,
+      "eps": 19.94,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251118",
+      "org_name": "国泰海通",
+      "quarter": "2025Q4",
+      "np": 902100.0,
+      "eps": 9.08,
+      "pe": 34.34,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251118",
+      "org_name": "国泰海通",
+      "quarter": "2026Q4",
+      "np": 1684900.0,
+      "eps": 16.95,
+      "pe": 18.39,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251118",
+      "org_name": "国泰海通",
+      "quarter": "2027Q4",
+      "np": 1907500.0,
+      "eps": 19.19,
+      "pe": 16.24,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251118",
+      "org_name": "中信建投",
+      "quarter": "2025Q4",
+      "np": 963649.0,
+      "eps": null,
+      "pe": 32.04,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251118",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 1668352.0,
+      "eps": null,
+      "pe": 18.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251118",
+      "org_name": "中信建投",
+      "quarter": "2027Q4",
+      "np": 2466716.0,
+      "eps": null,
+      "pe": 12.51,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251120",
+      "org_name": "中信证券",
+      "quarter": "2025Q4",
+      "np": 933700.0,
+      "eps": 9.4,
+      "pe": 33.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251120",
+      "org_name": "中信证券",
+      "quarter": "2026Q4",
+      "np": 1469900.0,
+      "eps": 14.79,
+      "pe": 21.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251120",
+      "org_name": "中信证券",
+      "quarter": "2027Q4",
+      "np": 2048700.0,
+      "eps": 20.62,
+      "pe": 15.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251123",
+      "org_name": "银河证券",
+      "quarter": "2025Q4",
+      "np": 870719.78,
+      "eps": 8.76,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251123",
+      "org_name": "银河证券",
+      "quarter": "2026Q4",
+      "np": 1527735.505,
+      "eps": 15.37,
+      "pe": null,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251130",
+      "org_name": "国联民生证券",
+      "quarter": "2026Q4",
+      "np": 1899481.165,
+      "eps": 19.11,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251130",
+      "org_name": "国联民生证券",
+      "quarter": "2025Q4",
+      "np": 885629.366,
+      "eps": 8.91,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251204",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2025Q4",
+      "np": 947800.0,
+      "eps": 9.54,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251204",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q1",
+      "np": 315000.0,
+      "eps": 3.17,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251204",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 1849400.0,
+      "eps": 18.61,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20251204",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 2409500.0,
+      "eps": 24.24,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260104",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 949700.0,
+      "eps": 9.554,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260104",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 2177600.0,
+      "eps": 21.907,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260104",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 1661600.0,
+      "eps": 16.716,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260201",
+      "org_name": "国泰海通",
+      "quarter": "2025Q4",
+      "np": 968200.0,
+      "eps": 9.74,
+      "pe": 43.07,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260201",
+      "org_name": "国泰海通",
+      "quarter": "2026Q4",
+      "np": 1685600.0,
+      "eps": 16.96,
+      "pe": 24.74,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260201",
+      "org_name": "国泰海通",
+      "quarter": "2027Q4",
+      "np": 1908100.0,
+      "eps": 19.2,
+      "pe": 21.85,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "群益证券",
+      "quarter": "2025Q4",
+      "np": 947700.0,
+      "eps": 9.54,
+      "pe": 44.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "群益证券",
+      "quarter": "2026Q4",
+      "np": 1250900.0,
+      "eps": 12.59,
+      "pe": 33.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "群益证券",
+      "quarter": "2027Q4",
+      "np": 1513800.0,
+      "eps": 15.23,
+      "pe": 28.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "天风证券",
+      "quarter": "2025Q4",
+      "np": 966004.0,
+      "eps": 9.72,
+      "pe": 45.17,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "天风证券",
+      "quarter": "2026Q4",
+      "np": 1711094.0,
+      "eps": 17.21,
+      "pe": 25.5,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "天风证券",
+      "quarter": "2027Q4",
+      "np": 2431286.0,
+      "eps": 24.46,
+      "pe": 17.95,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "国盛证券",
+      "quarter": "2025Q4",
+      "np": 953700.0,
+      "eps": 9.59,
+      "pe": 43.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 2169700.0,
+      "eps": 21.83,
+      "pe": 19.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260202",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 3117300.0,
+      "eps": 31.36,
+      "pe": 13.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260203",
+      "org_name": "东方财富证券",
+      "quarter": "2025Q4",
+      "np": 966700.0,
+      "eps": 9.72,
+      "pe": 45.14,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260203",
+      "org_name": "东方财富证券",
+      "quarter": "2026Q4",
+      "np": 1662200.0,
+      "eps": 16.72,
+      "pe": 26.25,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260203",
+      "org_name": "东方财富证券",
+      "quarter": "2027Q4",
+      "np": 2167400.0,
+      "eps": 21.8,
+      "pe": 20.13,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260203",
+      "org_name": "国投证券",
+      "quarter": "2025Q4",
+      "np": 944200.0,
+      "eps": 9.5,
+      "pe": 46.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260203",
+      "org_name": "国投证券",
+      "quarter": "2026Q4",
+      "np": 1699700.0,
+      "eps": 17.1,
+      "pe": 25.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260203",
+      "org_name": "国投证券",
+      "quarter": "2027Q4",
+      "np": 2221800.0,
+      "eps": 22.35,
+      "pe": 19.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260209",
+      "org_name": "中原证券",
+      "quarter": "2025Q4",
+      "np": 950900.0,
+      "eps": 9.57,
+      "pe": 38.06,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260209",
+      "org_name": "中原证券",
+      "quarter": "2026Q4",
+      "np": 1695800.0,
+      "eps": 17.06,
+      "pe": 21.34,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260209",
+      "org_name": "中原证券",
+      "quarter": "2027Q4",
+      "np": 2223100.0,
+      "eps": 22.36,
+      "pe": 16.28,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260210",
+      "org_name": "国联民生证券",
+      "quarter": "2025Q4",
+      "np": 979900.0,
+      "eps": 9.86,
+      "pe": 40.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260210",
+      "org_name": "国联民生证券",
+      "quarter": "2026Q4",
+      "np": 1778300.0,
+      "eps": 17.89,
+      "pe": 22.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260210",
+      "org_name": "国联民生证券",
+      "quarter": "2027Q4",
+      "np": 2453500.0,
+      "eps": 24.68,
+      "pe": 16.0,
+      "rating": "推荐"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260317",
+      "org_name": "申万宏源证券",
+      "quarter": "2026Q4",
+      "np": 1701743.942,
+      "eps": 17.12,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260318",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2025Q4",
+      "np": 963200.0,
+      "eps": 9.69,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260318",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q1",
+      "np": 316100.0,
+      "eps": 3.18,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260318",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 1905200.0,
+      "eps": 19.17,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260318",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 2473000.0,
+      "eps": 24.88,
+      "pe": null,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260329",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 2582000.0,
+      "eps": 25.98,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260329",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 1956400.0,
+      "eps": 19.68,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260329",
+      "org_name": "长江证券",
+      "quarter": "2025Q4",
+      "np": 963700.0,
+      "eps": 9.7,
+      "pe": null,
+      "rating": "无"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "国盛证券",
+      "quarter": "2028Q4",
+      "np": 5675600.0,
+      "eps": 57.1,
+      "pe": 10.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 4198900.0,
+      "eps": 42.24,
+      "pe": 14.4,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 2192500.0,
+      "eps": 22.06,
+      "pe": 27.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "开源证券",
+      "quarter": "2026Q4",
+      "np": 1935100.0,
+      "eps": 19.47,
+      "pe": 27.6,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "开源证券",
+      "quarter": "2028Q4",
+      "np": 5372500.0,
+      "eps": 54.05,
+      "pe": 9.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "开源证券",
+      "quarter": "2027Q4",
+      "np": 3521000.0,
+      "eps": 35.42,
+      "pe": 15.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "国金证券",
+      "quarter": "2026Q4",
+      "np": 2701700.0,
+      "eps": 27.18,
+      "pe": 19.77,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "国金证券",
+      "quarter": "2027Q4",
+      "np": 6193100.0,
+      "eps": 62.304,
+      "pe": 8.62,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260424",
+      "org_name": "国金证券",
+      "quarter": "2028Q4",
+      "np": 7761800.0,
+      "eps": 78.086,
+      "pe": 6.88,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260426",
+      "org_name": "华泰证券",
+      "quarter": "2026Q4",
+      "np": 1793500.0,
+      "eps": 18.04,
+      "pe": 29.78,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260426",
+      "org_name": "华泰证券",
+      "quarter": "2028Q4",
+      "np": 2853900.0,
+      "eps": 28.71,
+      "pe": 18.71,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260426",
+      "org_name": "华泰证券",
+      "quarter": "2027Q4",
+      "np": 2237100.0,
+      "eps": 22.51,
+      "pe": 23.87,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260428",
+      "org_name": "天风证券",
+      "quarter": "2026Q4",
+      "np": 1847162.0,
+      "eps": 18.58,
+      "pe": 28.81,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260428",
+      "org_name": "天风证券",
+      "quarter": "2027Q4",
+      "np": 2487893.0,
+      "eps": 25.03,
+      "pe": 21.39,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260428",
+      "org_name": "天风证券",
+      "quarter": "2028Q4",
+      "np": 3113323.0,
+      "eps": 31.32,
+      "pe": 17.1,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260429",
+      "org_name": "长江证券",
+      "quarter": "2028Q4",
+      "np": 6776200.0,
+      "eps": 68.17,
+      "pe": 7.88,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260429",
+      "org_name": "长江证券",
+      "quarter": "2027Q4",
+      "np": 2757900.0,
+      "eps": 27.75,
+      "pe": 19.36,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260429",
+      "org_name": "长江证券",
+      "quarter": "2026Q4",
+      "np": 1737500.0,
+      "eps": 17.48,
+      "pe": 30.74,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260505",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 1942900.0,
+      "eps": 19.55,
+      "pe": 26.9,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260505",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 2816000.0,
+      "eps": 28.33,
+      "pe": 18.6,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260505",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2028Q4",
+      "np": 3180700.0,
+      "eps": 32.0,
+      "pe": 16.4,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260506",
+      "org_name": "招商证券",
+      "quarter": "2026Q4",
+      "np": 1657000.0,
+      "eps": 16.67,
+      "pe": 31.3,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260506",
+      "org_name": "招商证券",
+      "quarter": "2027Q4",
+      "np": 2770900.0,
+      "eps": 27.88,
+      "pe": 18.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260506",
+      "org_name": "招商证券",
+      "quarter": "2028Q4",
+      "np": 3789600.0,
+      "eps": 38.12,
+      "pe": 13.7,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260507",
+      "org_name": "华创证券",
+      "quarter": "2026Q4",
+      "np": 1790700.0,
+      "eps": 18.01,
+      "pe": 29.0,
+      "rating": "强推"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260507",
+      "org_name": "华创证券",
+      "quarter": "2027Q4",
+      "np": 3458500.0,
+      "eps": 34.79,
+      "pe": 15.0,
+      "rating": "强推"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260507",
+      "org_name": "华创证券",
+      "quarter": "2028Q4",
+      "np": 5175200.0,
+      "eps": 52.06,
+      "pe": 10.0,
+      "rating": "强推"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260507",
+      "org_name": "兴业证券",
+      "quarter": "2026Q4",
+      "np": 2050300.0,
+      "eps": 20.63,
+      "pe": 25.5,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260507",
+      "org_name": "兴业证券",
+      "quarter": "2027Q4",
+      "np": 3587400.0,
+      "eps": 36.09,
+      "pe": 14.6,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260507",
+      "org_name": "兴业证券",
+      "quarter": "2028Q4",
+      "np": 5111000.0,
+      "eps": 51.42,
+      "pe": 10.2,
+      "rating": "增持"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260508",
+      "org_name": "中信证券",
+      "quarter": "2026Q4",
+      "np": 1824300.0,
+      "eps": 18.35,
+      "pe": 30.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260508",
+      "org_name": "中信证券",
+      "quarter": "2027Q4",
+      "np": 2903400.0,
+      "eps": 29.21,
+      "pe": 19.3,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260508",
+      "org_name": "中信证券",
+      "quarter": "2028Q4",
+      "np": 4412800.0,
+      "eps": 44.39,
+      "pe": 12.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260510",
+      "org_name": "中信建投",
+      "quarter": "2026Q4",
+      "np": 1728613.0,
+      "eps": null,
+      "pe": 30.04,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260510",
+      "org_name": "中信建投",
+      "quarter": "2027Q4",
+      "np": 2565766.0,
+      "eps": null,
+      "pe": 20.24,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260510",
+      "org_name": "中信建投",
+      "quarter": "2028Q4",
+      "np": 3506865.0,
+      "eps": null,
+      "pe": 14.81,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260524",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 2192966.586,
+      "eps": 22.02,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260524",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 4198704.417,
+      "eps": 42.16,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260524",
+      "org_name": "国盛证券",
+      "quarter": "2028Q4",
+      "np": 5675620.605,
+      "eps": 56.99,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260527",
+      "org_name": "山西证券",
+      "quarter": "2026Q4",
+      "np": 2123800.0,
+      "eps": 21.33,
+      "pe": 32.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260527",
+      "org_name": "山西证券",
+      "quarter": "2027Q4",
+      "np": 4053600.0,
+      "eps": 40.7,
+      "pe": 17.2,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260527",
+      "org_name": "山西证券",
+      "quarter": "2028Q4",
+      "np": 5901200.0,
+      "eps": 59.25,
+      "pe": 11.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260531",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 1930800.0,
+      "eps": 19.42,
+      "pe": 36.4,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260531",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 2942900.0,
+      "eps": 29.61,
+      "pe": 23.9,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260531",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2028Q4",
+      "np": 3374700.0,
+      "eps": 33.95,
+      "pe": 20.8,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260601",
+      "org_name": "华鑫证券",
+      "quarter": "2026Q4",
+      "np": 1194081.261,
+      "eps": 11.99,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260601",
+      "org_name": "华鑫证券",
+      "quarter": "2027Q4",
+      "np": 1509780.81,
+      "eps": 15.16,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260614",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 4199501.132,
+      "eps": 30.12,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260614",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 2193165.764,
+      "eps": 15.73,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260614",
+      "org_name": "国盛证券",
+      "quarter": "2028Q4",
+      "np": 5676018.961,
+      "eps": 40.71,
+      "pe": null,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "国盛证券",
+      "quarter": "2026Q4",
+      "np": 2192500.0,
+      "eps": 15.73,
+      "pe": 30.7,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "国盛证券",
+      "quarter": "2027Q4",
+      "np": 4198900.0,
+      "eps": 30.12,
+      "pe": 16.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "国盛证券",
+      "quarter": "2028Q4",
+      "np": 5675600.0,
+      "eps": 40.71,
+      "pe": 11.9,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "群益证券",
+      "quarter": "2026Q4",
+      "np": 1850200.0,
+      "eps": 13.27,
+      "pe": 36.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "群益证券",
+      "quarter": "2027Q4",
+      "np": 2425600.0,
+      "eps": 17.4,
+      "pe": 28.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "群益证券",
+      "quarter": "2028Q4",
+      "np": 3059100.0,
+      "eps": 21.94,
+      "pe": 22.0,
+      "rating": "买进"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2026Q4",
+      "np": 2068300.0,
+      "eps": 14.86,
+      "pe": 32.5,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2027Q4",
+      "np": 3008000.0,
+      "eps": 21.62,
+      "pe": 22.3,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260720",
+      "org_name": "高盛集团（GoldmanSachs）",
+      "quarter": "2028Q4",
+      "np": 3457600.0,
+      "eps": 24.85,
+      "pe": 19.4,
+      "rating": "Buy"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260724",
+      "org_name": "华鑫证券",
+      "quarter": "2026Q4",
+      "np": 1927200.0,
+      "eps": 13.82,
+      "pe": 36.0,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260724",
+      "org_name": "华鑫证券",
+      "quarter": "2027Q4",
+      "np": 3326900.0,
+      "eps": 23.86,
+      "pe": 20.8,
+      "rating": "买入"
+    },
+    {
+      "ts_code": "300502.SZ",
+      "report_date": "20260724",
+      "org_name": "华鑫证券",
+      "quarter": "2028Q4",
+      "np": 5345500.0,
+      "eps": 38.34,
+      "pe": 13.0,
+      "rating": "买入"
+    }
+  ],
+  "forward_year": 2026,
+  "forward_np": 1921291.0,
+  "n_orgs": 10,
+  "note": "近90天 10 家机构一致预期净利(2026)均值 192 亿元"
 }

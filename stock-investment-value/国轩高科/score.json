@@ -1,27 +1,27 @@
 {
-  "ts_code": "300502.SZ",
-  "name": "新易盛",
-  "industry": "通信设备",
+  "ts_code": "002074.SZ",
+  "name": "国轩高科",
+  "industry": "电气设备",
   "trade_date": "20260731",
-  "total_score": 83,
+  "total_score": 73.0,
   "max_score": 100,
-  "rating": "低估/优质",
-  "rating_emoji": "🟢",
+  "rating": "谨慎",
+  "rating_emoji": "🟠",
   "dimensions": {
     "成长性": {
-      "score": 31,
+      "score": 30.6,
       "max": 35
     },
     "盈利质量": {
-      "score": 21,
+      "score": 14,
       "max": 25
     },
     "估值吸引力": {
-      "score": 11,
+      "score": 12.4,
       "max": 20
     },
     "财务健康": {
-      "score": 12,
+      "score": 8,
       "max": 12
     },
     "流动性与规模": {
@@ -35,84 +35,84 @@
       "name": "近3年营收增速均值",
       "dimen": "成长性",
       "score": 12,
-      "remark": "营收增速均值 120.0%，≥20%"
+      "remark": "营收增速均值 25.5%，≥20%"
     },
     {
       "key": "profit_yoy_avg3",
       "name": "近3年净利增速均值",
       "dimen": "成长性",
-      "score": 12,
-      "remark": "净利增速均值 174.8%，≥25%"
+      "score": 9.6,
+      "remark": "净利增速均值 109.1%，≥25%；小基数（年度归母净利 23.8亿 < 30亿），×0.8"
     },
     {
       "key": "rev_positive_years",
       "name": "近3年营收正增长年数",
       "dimen": "成长性",
-      "score": 2,
-      "remark": "正增长 2 年，得分 2"
+      "score": 3,
+      "remark": "正增长 3 年，得分 3"
     },
     {
       "key": "growth_stability",
       "name": "增速稳定性（净利增速变异系数）",
       "dimen": "成长性",
-      "score": 0,
-      "remark": "CV=1.01（剧烈波动），得分 0"
+      "score": 1,
+      "remark": "CV=0.80（波动较大），得分 1"
     },
     {
       "key": "deducted_yoy_avg3",
       "name": "近3年扣非增速均值",
       "dimen": "成长性",
       "score": 5,
-      "remark": "扣非增速均值 180.0%，≥10%"
+      "remark": "扣非增速均值 104.3%，≥10%"
     },
     {
       "key": "gross_margin",
       "name": "毛利率",
       "dimen": "盈利质量",
-      "score": 5,
-      "remark": "毛利率 49.2%（最新报告期），≥40%"
+      "score": 1,
+      "remark": "毛利率 16.1%（最新报告期），10–25%"
     },
     {
       "key": "net_margin",
       "name": "净利率",
       "dimen": "盈利质量",
-      "score": 5,
-      "remark": "净利率 33.3%（最新报告期），≥10%"
+      "score": 0,
+      "remark": "净利率 0.2%（最新报告期），低于全部阈值"
     },
     {
       "key": "ocf_to_np",
       "name": "经营现金流/归母净利",
       "dimen": "盈利质量",
-      "score": 6,
-      "remark": "经营现金流/净利 0.81，0.5–1"
+      "score": 10,
+      "remark": "经营现金流/净利 1.52，≥1（利润有真金白银）"
     },
     {
       "key": "roe_waa",
       "name": "加权ROE（最新年度）",
       "dimen": "盈利质量",
-      "score": 5,
-      "remark": "年度 ROE 72.8%（20251231），≥15%"
+      "score": 3,
+      "remark": "年度 ROE 8.7%（20251231），8–15%"
     },
     {
       "key": "peg",
       "name": "PEG（混合PEG）",
       "dimen": "估值吸引力",
-      "score": 8,
-      "remark": "PEG 0.51，<1 低估；一致预期(102%) vs TTM(163%) 差距>15pp，降一档；口径 consensus（2026年度）"
+      "score": 8.4,
+      "remark": "PEG 0.08，<1 低估；增速为业绩预告口径，×0.7；口径 forecast（2026H1（1-6月累计））"
     },
     {
       "key": "pe_ttm_percentile_5y",
       "name": "PE-TTM近5年分位",
       "dimen": "估值吸引力",
-      "score": 3,
-      "remark": "分位 65.0%（50–75% 中高位）"
+      "score": 4,
+      "remark": "分位 10.7%（<25% 历史低位）；质量联动（净利率 0.2% < 5%），上限减半"
     },
     {
       "key": "debt_to_assets",
       "name": "资产负债率",
       "dimen": "财务健康",
-      "score": 7,
-      "remark": "资产负债率 31.0%，<40%"
+      "score": 3,
+      "remark": "资产负债率 72.0%，60–80%"
     },
     {
       "key": "mine_check",
@@ -126,16 +126,18 @@
       "name": "日均成交额",
       "dimen": "流动性与规模",
       "score": 5,
-      "remark": "日均成交额 196.8亿，≥1亿"
+      "remark": "日均成交额 23.6亿，≥1亿"
     },
     {
       "key": "total_mv_yi",
       "name": "总市值",
       "dimen": "流动性与规模",
       "score": 3,
-      "remark": "总市值 5521亿，≥100亿"
+      "remark": "总市值 518亿，≥100亿"
     }
   ],
-  "flags": [],
+  "flags": [
+    "质量底线触发（净利率 0.2% < 2%），评级封顶为谨慎"
+  ],
   "disclaimer": "本评分仅为数据分析，不构成投资建议。所有分数锚定 tushare 真实数据，缺失按 0 分计。"
 }
